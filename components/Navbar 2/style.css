@@ -1,16 +1,19 @@
-@import url("../../common.css");
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+header {
+  position: sticky;
+  top: 0;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   height: 70px;
-  background-color: #202024;
+  background-color: #101015;
   color: #fff;
 }
 
@@ -22,7 +25,7 @@ div > a {
 
 a:hover {
   color: #ffffff;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .active {
@@ -30,9 +33,10 @@ a:hover {
 }
 
 .srcbar > img {
-  height: 13px;
-  margin-left: 3px;
+  height: 12px;
+  margin-left: 7px;
   filter: invert(80%);
+  margin-top: 5px;
 }
 
 .srcbar > input {
@@ -46,16 +50,24 @@ a:hover {
   border: 5px solid #2a2a2a;
   border-radius: 15px;
   margin-left: 100px;
+  height: 23px;
 }
 
 input[type="search"]::-webkit-input-placeholder {
   position: absolute;
-  bottom: 2px;
+  bottom: 2.5px;
   color: #cccccc;
+  font-size: 12px;
+  margin-left: 5px;
 }
 
 input[type="search"] {
   border: none;
   outline: none;
   color: #ffffff;
+}
+
+.srcbar:hover {
+  opacity: 70%;
+  transition: 0.2s;
 }
