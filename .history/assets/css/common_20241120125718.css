@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pluto+Sans&display=swap');
+
+:root {
+    --giallo-oro: #FFD15C;
+    --grigio-chiaro: #CCCCCC;
+    --grigio-scuro: #202024;
+    --grigio: #2A2A2A;
+    --azzurro: #72D3FF;
+    --bianco: #FFFFFF;
+    --bg: #101015;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #101015;
+    font-family: Pluto Sans, sans-serif;
+}
+
+main {
+    padding: 10px 200px;
+}

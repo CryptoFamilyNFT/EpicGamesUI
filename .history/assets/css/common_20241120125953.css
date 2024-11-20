@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    font-family: "'Pluto Sans', sans-serif";
+}
+
+:root {
+    --giallo-oro: #FFD15C;
+    --grigio-chiaro: #CCCCCC;
+    --grigio-scuro: #202024;
+    --grigio: #2A2A2A;
+    --azzurro: #72D3FF;
+    --bianco: #FFFFFF;
+    --bg: #101015;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #101015;
+}
+
+main {
+    padding: 10px 200px;
+}

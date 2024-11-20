@@ -1,0 +1,11 @@
+@import url('../../common.css');
+
+.container {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/stalked.jpeg');
+    background-size: cover;
+    background-position: center;
+}

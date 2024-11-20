@@ -1,0 +1,14 @@
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #101015;
+}
+
+main {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+}
