@@ -1,1 +1,61 @@
-@import url('../../common.css')
+@import url("../../common.css");
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background-color: #202024;
+  color: #fff;
+}
+
+div > a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: #cccccc;
+}
+
+a:hover {
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.active {
+  color: #ffffff;
+}
+
+.srcbar > img {
+  height: 13px;
+  margin-left: 3px;
+  filter: invert(80%);
+}
+
+.srcbar > input {
+  background-color: #2a2a2a;
+  border: none;
+}
+
+.srcbar {
+  background-color: #2a2a2a;
+  align-items: center;
+  border: 5px solid #2a2a2a;
+  border-radius: 15px;
+  margin-left: 100px;
+}
+
+input[type="search"]::-webkit-input-placeholder {
+  position: absolute;
+  bottom: 2px;
+  color: #cccccc;
+}
+
+input[type="search"] {
+  border: none;
+  outline: none;
+  color: #ffffff;
+}
