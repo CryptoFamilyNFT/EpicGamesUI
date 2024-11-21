@@ -1,3 +1,4 @@
+
 /* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
@@ -67,3 +68,6 @@ h6 {
 #__next {
     isolation: isolate;
 }
+
+@import url('./components/Navbar-2/style.css');
+@import url('./components/Carosello-1/style.css');
