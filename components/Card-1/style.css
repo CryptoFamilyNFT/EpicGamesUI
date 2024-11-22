@@ -1,0 +1,61 @@
+@import url('../../common.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(202, 202, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: #202024;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 1px solid #202024;
+  }
+  .card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-header {
+    font-weight: bold;
+    padding: 5px;
+    background-color: #202024;
+    border-radius: 10px;
+  }
+  .card-header h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #ffffff;
+  }
+  .card-header p {
+    font-size: 12px;
+    color: #cccccc;
+    margin-bottom: 8px;
+  }
+  .card-header h3 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;
+  }
+  
