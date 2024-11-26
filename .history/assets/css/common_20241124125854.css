@@ -1,0 +1,58 @@
+
+
+:root {
+    --giallo-oro: #FFD15C;
+    --grigio-chiaro: #CCCCCC;
+    --grigio-scuro: #202024;
+    --grigio: #2A2A2A;
+    --azzurro: #72D3FF;
+    --bianco: #FFFFFF;
+    --bg: #101015;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #101015;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    padding: 10px 160px;
+}
+
+.carousel-1 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.carousel-if-1 {
+    width: 100%;
+    height: 600px;
+    flex-grow: 5; /* Increased flex-grow to make it larger */
+}
+
+.carousel-if-2 {
+    width: 1005%;
+    height: 600px;
+    flex-basis: 160px;
+    flex-shrink: 1;
+    display: flex;
+    -webkit-flex-basis: 160px;
+    flex-grow: 1;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 10px; /* Optional: adds space between columns */
+}
+
+.grid-item-1 {
+    background-color: var(--giallo-oro); /* Optional: for visual distinction */
+}
+
+.grid-item-2 {
+    background-color: var(--grigio-chiaro); /* Optional: for visual distinction */
+}
