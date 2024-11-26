@@ -24,6 +24,7 @@ body {
 }
 
 main {
+  height: auto;
   padding: 10px 160px;
 }
 
