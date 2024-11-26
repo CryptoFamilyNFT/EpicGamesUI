@@ -1,0 +1,63 @@
+@import url('../../common.css');
+
+body {
+    width: auto;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section {
+width: auto;
+height: 400px;
+background-color: black;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+justify-content: center;
+}
+
+p {
+    color: lightgrey;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    margin: 0;
+}
+
+.btn-general{
+    width: 40%;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.card-container {
+    padding: 20px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.card[id="card-1"] {
+    grid-column: 1 / span 1;
+    background-color: transparent;
+}
+
+.card[id="card-2"]  {
+    grid-column: 2 / span 1;
+    background-color: rgb(138, 118, 80);
+}
+
+.card[id="card-3"]  {
+    grid-column: 3 / span 1;
+    background-color: rgb(73, 51, 10);
+}
