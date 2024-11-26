@@ -1,0 +1,48 @@
+@import url('../../assets/css/common.css'); /* todo: fix styles based on reset */
+
+body {
+    width: auto;
+    height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 15px;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+} /* aggiunto stile su body */
+
+.card-carosello2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2px 15px;
+    gap: 10px;
+    background-color: transparent; /* cambiato su trasparent */
+    color: white;
+    width: auto; /* cambiato su auto */
+    min-height: 15%;
+    border-radius: 8px;
+}
+
+.card-carosello2-image {
+    border-radius: 6px;
+    height: 50px;
+    width: auto;
+    object-fit: cover;
+}
+
+.card-carosello2 p {
+    margin: 0;                 
+    font-size: 14px;          
+    color: white;  
+    font-family: Arial, Helvetica, sans-serif;           
+    height:100%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.card-carosello2:hover {
+    background-color: #3a3a3e;
+}
+
+.card-carosello2:checked {
+    background-color: #3a3a3e;
+}
