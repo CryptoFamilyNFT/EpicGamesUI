@@ -1,101 +1,103 @@
-@import url("../../common.css");
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-footer {
+.main-footer {
   background-color: #2a2a2a;
-  padding-top: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 50px;
 }
 
-.social > img {
+.footer-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-head img,
+svg {
   height: 30px;
-  width: 30px;
   filter: invert(100%);
-  padding: 5px;
 }
 
-.social > img:hover {
+.footer-head > .social {
+  display: flex;
+  gap: 15px;
+}
+
+.main-footer img:hover {
   opacity: 50%;
   transition: 0.2s;
 }
 
-#upbutton {
-  float: right;
+.main-footer .footer-links {
+  padding: 20px 0;
 }
 
-#upbutton:hover {
-  opacity: 50%;
-  transition: 0.2s;
-}
-
-.links1,
+.footer-links > .links1,
 .links2 {
-  padding-top: 30px;
+  padding: 10px 0;
 }
 
-.links1 > ul {
+.main-footer .links1 > ul {
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(3, 180px);
-  padding-left: 0;
+  padding: 0;
 }
 
-li > a {
+.main-footer li > a {
   text-decoration: none;
   color: #cccccc;
   font-size: 14px;
 }
 
-a:hover {
+.main-footer a:hover {
   color: rgb(48, 48, 255);
   transition: 0.2s;
 }
 
-span {
+.main-footer span {
   font-weight: bold;
   color: #868686;
   font-size: 16px;
 }
 
-.links2 > ul {
+.footer-links .links2 > ul {
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(2, 150px);
   padding-left: 0;
 }
 
-p {
-  color: #cccccc;
-  font-size: 12px;
-  width: 400px;
-  margin-top: 40px;
-}
-
-.policy {
+.footer-end {
   border-top: 1px solid #868686;
 }
 
-.policy > ul {
+.footer-end-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-end p {
+  color: #cccccc;
+  font-size: 12px;
+  width: 400px;
+  padding: 20px 0;
+}
+
+.footer-end ul {
   list-style-type: none;
   display: flex;
   gap: 20px;
   padding-left: 0;
-  margin-top: 30px;
 }
 
-.policy > img {
+.footer-end img {
   height: 40px;
   filter: invert(100);
 }
 
-#ue-logo {
-  height: 40px;
-  margin-bottom: 2px;
-  opacity: 80%;
+.footer-end svg {
+  height: 35px;
+  padding: 3px 0;
+}
+
+.footer-end svg:hover {
+  opacity: 50%;
+  transition: 0.2s;
 }
