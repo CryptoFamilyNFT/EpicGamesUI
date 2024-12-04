@@ -66,3 +66,30 @@
   opacity: 70%;
   transition: 0.2s;
 }
+
+@media (max-width: 768px) {
+  .srclogo {
+    display: block;
+  }
+
+  .srcbar > #src {
+    display: none;
+  }
+
+  .navbar-2-links > a:nth-child(2) {
+    display: none;
+  }
+
+  .navbar-2-links > a:nth-child(3) {
+    display: none;
+  }
+
+  .navbar-2-links > a:nth-child(1) {
+    padding: 0 6em;
+  }
+
+  .navbar-elements {
+    justify-content: center;
+    align-items: center;
+  }
+}
