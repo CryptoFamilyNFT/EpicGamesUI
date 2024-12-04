@@ -68,3 +68,9 @@
   color: #ffffff;
   background-color: #787878;
 }
+
+.card-3-img:hover {
+  filter: brightness(200%);
+  filter: contrast(80%);
+  transition: 0.2s;
+}
