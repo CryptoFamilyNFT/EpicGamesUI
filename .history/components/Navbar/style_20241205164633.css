@@ -1,0 +1,98 @@
+nav {
+  height: 70px;
+  width: 100%;
+  background-color: rgb(22, 22, 28);
+  display: flex;
+  flex-direction: row;
+}
+
+#Logo{
+  height: 35%;
+  padding: 15px;
+}
+
+#Globe{
+    height: 30%;
+}
+
+#Store{
+    font-weight: 900;
+}
+
+#Nav-Hamburger{
+    height: 30%;
+    margin-right: 10px;
+}
+
+.Nav-Main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70;
+}
+
+.Nav-Logo,
+.Nav-Log-Bar,
+.Nav-Tool-Bar,
+.Nav-Mobile-Bar {
+  display: flex;
+  align-items: center;
+}
+
+.Nav-Mobile-Bar{
+    display: none;
+}
+
+.Nav-Tool-Bar>ul>li>a{
+    margin-right: 20px;
+}
+
+select {
+    font-size: 16px;
+  background-color: rgb(22, 22, 28);
+  border-color: rgb(22, 22, 28);
+  font-family: sans-serif;
+  color: white;
+}
+
+.Nav-Tool-Bar > ul {
+  display: flex;
+  align-items: center;
+}
+
+.Log{
+    border-radius: 5px;
+    background-color: #474747;
+    padding: 4px 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Download{
+    border-radius: 5px;
+    background-color: #26BBFF;
+    color:black;
+    padding: 4px 12px;
+    margin-right: 10px ;
+}
+
+.Nav-List-Bar > li , a{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  font: 16px;
+}
+
+@media screen and (max-width: 1025px ) {
+    .Nav-Tool-Bar,
+    .Nav-Log-Bar{
+        display: none;
+    }
+    .Nav-Mobile-Bar{
+        display:flex;
+    }
+    .Nav-Main{
+        justify-content: flex-end;
+    }
+}
