@@ -69,6 +69,18 @@
   background-color: #787878;
 }
 
+.card-3-img > svg {
+  position: absolute;
+  padding: 0 325px;
+  width: 30px;
+  color: #ffffff;
+  display: none;
+}
+
+.card-3-img:hover > svg {
+  display: block;
+}
+
 .card-3-img:hover {
   filter: brightness(200%);
   filter: contrast(80%);
