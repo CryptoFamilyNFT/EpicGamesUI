@@ -117,9 +117,6 @@
   }
   
   .wishlist-button {
-      display: flex;
-      align-items: center;
-      justify-content: center;
       width: 24px;        
       border-radius: 50%; 
       background-color: black; 
