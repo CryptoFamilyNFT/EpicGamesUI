@@ -1,27 +1,44 @@
 .title-section-card-1 {
   color: #ffffff;
   padding: 15px;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .section-card-1 {
   display: flex;
   gap: 10px;
-  margin-top: 50px;
 }
-
-.card {
+.section-card-1 .card {
   background-color: #202024;
   border-radius: 10px;
   overflow: hidden;
   border: 1px solid #202024;
 }
 
+.section-card-1 .card:hover {
+  filter: brightness(200%);
+  filter: contrast(80%);
+  transition: 0.2s;
+}
 .card-img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
+.svg {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: black;
+}
 .card-header {
   font-weight: bold;
   padding: 15px;
@@ -31,20 +48,17 @@
   flex-direction: column;
   gap: 8px;
 }
-
 .card-header h2 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
   color: #ffffff;
 }
-
 .card-header p {
   font-size: 12px;
   color: #cccccc;
   margin: 0;
 }
-
 .card-header h3 {
   font-size: 15px;
   font-weight: normal;
