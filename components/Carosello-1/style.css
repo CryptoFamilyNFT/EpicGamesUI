@@ -38,9 +38,8 @@ p[id="price"]::before {
 }
 
 button[id="buy"] {
-  width: 50%;
-  max-height: 50px;
-  padding: 0px 30px;
+  width: 200px;
+  padding: 10px;
   background-color: white;
   border: 2px solid white;
   border-radius: 10px;
@@ -49,7 +48,7 @@ button[id="buy"] {
 }
 
 button[id="my-list"] {
-  width: 40%;
+  width: 50%;
   color: white;
   padding: 0px 20px;
   background-color: transparent;
@@ -57,7 +56,7 @@ button[id="my-list"] {
   border-radius: 10px;
   font-weight: 300;
   font-size: 15px;
-  text-align: left;
+  text-align: center;
 }
 
 button[id="my-list"]:hover {
