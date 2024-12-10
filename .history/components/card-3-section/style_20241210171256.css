@@ -50,7 +50,6 @@ h6 {
     padding: 2px 15px;
     border: none;
     align-items: center;
-    display: flex;
 }
 
 .section-card-3 > i {
@@ -100,5 +99,4 @@ img[id="card-section-3"] {
 
 .custom-icon {
     color: white;
-    fill: white;
 }

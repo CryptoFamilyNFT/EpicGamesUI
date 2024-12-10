@@ -1,6 +1,6 @@
 
 .continer-card-3 {
-    width: 100%;
+    width: auto;
     gap: 10px;
     justify-content: center;
     position: relative;
@@ -17,7 +17,6 @@
 }
 
 p {
-    padding-top: 10px;
     color: lightgrey;
 }
 
@@ -32,7 +31,6 @@ h5,
 h6 {
     color: white;
     margin: 0;
-    font-weight: 800;
 }
 
 .btn-general {
@@ -49,56 +47,33 @@ h6 {
     left: 0%;
     padding: 2px 15px;
     border: none;
-    align-items: center;
-    display: flex;
 }
 
-.section-card-3 > i {
-    color: rgb(9, 9, 9);
-    font-size: 20px;
-    position: absolute;
-    top: 90%;
-    left: 0%;
-}
-.section-card-3 > .card-container-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    position: relative;
-    align-content: normal;
-    gap: 20px;
-    background-color: rgb(16, 16, 20);
-}
-
-.card-container {
-    display: flex;
-    gap: 20px;
-    padding: 20px 105px;
-
+.section-card-3 > .card-container {
+    padding: 20px 0;
 }
 
 .section-card-3 > .card-s3 {
-    width: 100%;
+    max-width: auto;
     display: flex;
     flex-direction: column;
     align-items: start;
     position: relative;
-    height: 50vh;
-    gap: 20px;
+    padding-bottom: calc(9 / 16* 100%);
 }
 
+.section-card-3 > .card-s3 {
+    background-color: transparent;
+    
+}
 
 .img-container {
     width: 100%;
     position: relative;
+    padding-bottom: calc(9 / 16* 100%);
 }
 
 img[id="card-section-3"] {
     width: 100%;
     height: 100%;
-}
-
-.custom-icon {
-    color: white;
-    fill: white;
 }
