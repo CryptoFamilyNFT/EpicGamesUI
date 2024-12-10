@@ -1,5 +1,7 @@
 @import url("./assets/css/common.css");
 @import url("./components/Navbar-2/style.css");
+@import url("./components/Navbar/style.css");
 @import url("./components/Carosello-1/style.css");
 @import url("./components/card-carosello-2/style.css");
 @import url("./components/Footer/style.css");
+
