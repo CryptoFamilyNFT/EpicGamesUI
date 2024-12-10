@@ -1,14 +1,8 @@
 @import url("../../assets/css/common.css");
 
-.sezione-card-2 {
-  width: auto;
-  height: auto;
-}
-
 .card-container {
   display: flex;
   gap: 20px;
-  padding: 20px 105px;
 }
 
 .card-3-img {
