@@ -1,19 +1,12 @@
-@import url("../../assets/css/common.css");
-
-.card-container {
+.sezione-card-2 .card-container {
   display: flex;
   gap: 20px;
 }
 
-.card-3-img {
-  width: fit-content;
-  padding: 20px 0;
-}
-
 .card-3-img > img {
-  height: 200px;
   border: 1px solid none;
   border-radius: 10px;
+  width: 100%;
 }
 
 .card-3-title {

@@ -1,5 +1,3 @@
-@import url('../../assets/css/common.css');
-
 .nav-container {
   height: 70px;
   width: 100%;
@@ -49,7 +47,7 @@
   display: none;
 }
 
-.Nav-Tool-Bar>ul>li>a {
+.Nav-Tool-Bar > ul > li > a {
   margin-right: 20px;
 }
 
@@ -61,7 +59,7 @@ select {
   color: white;
 }
 
-.Nav-Tool-Bar>ul {
+.Nav-Tool-Bar > ul {
   display: flex;
   align-items: center;
 }
@@ -76,13 +74,13 @@ select {
 
 .Download {
   border-radius: 5px;
-  background-color: #26BBFF;
+  background-color: #26bbff;
   color: black;
   padding: 4px 12px;
   margin-right: 10px;
 }
 
-.Nav-List-Bar>li,
+.Nav-List-Bar > li,
 a {
   text-decoration: none;
   list-style: none;
@@ -92,7 +90,6 @@ a {
 }
 
 @media screen and (max-width: 1025px) {
-
   .Nav-Tool-Bar,
   .Nav-Log-Bar {
     display: none;

@@ -13,10 +13,9 @@
   justify-content: space-between;
   position: relative;
   align-items: stretch;
-  padding: 0 100px;
 }
 
-p {
+.section-card-3 p {
   padding-top: 10px;
   color: lightgrey;
   padding-bottom: 15px;
@@ -65,7 +64,7 @@ h6 {
   background-color: rgb(16, 16, 20);
 }
 
-.card-container {
+.section-card-3 .card-container {
   display: flex;
   gap: 20px;
   padding: 20px 105px;
@@ -80,7 +79,7 @@ h6 {
   gap: 20px;
 }
 
-.img-container {
+.section-card-3 .img-container {
   width: 100%;
   position: relative;
 }

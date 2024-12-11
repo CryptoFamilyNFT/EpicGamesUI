@@ -1,6 +1,4 @@
-@import url("../../assets/css/common.css");
-
-.header-title {
+.flex-content .header-title {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -9,7 +7,7 @@
   margin: 0px 0px 10px;
 }
 
-.header-icon {
+.flex-content .header-icon {
   fill: black;
 }
 

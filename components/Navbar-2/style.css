@@ -1,17 +1,18 @@
 .navbar-2 {
   display: flex;
   align-items: center;
-  padding: 25px 120px;
   background-color: #101015;
   color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
 }
 
-.navbar-elements {
+.navbar-2 .navbar-elements {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 0 80px;
 }
 
 .navbar-2-links {
