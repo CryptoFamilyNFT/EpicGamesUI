@@ -8,7 +8,13 @@
   background-color: #202024;
   border-radius: 10px;
   overflow: hidden;
-  /* border: 1px solid #202024; */
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .card-page-3-img {
@@ -52,12 +58,6 @@
   color: rgb(202, 81, 43);
   padding-right: 5px;
   gap: 5px;
-  /* color: rgb(202, 81, 43);
-  padding-right: 5px;
-  display: block;
-  line-height: 0;
-  width: 20px;
-  height: 20px; */
 }
 
 .card-page-3-cup svg {
