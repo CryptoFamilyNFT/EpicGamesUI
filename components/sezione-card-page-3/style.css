@@ -1,0 +1,89 @@
+.title-section-card-page-3 {
+  color: #ffffff;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.section-card-page-3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.section-card-page-3 .card {
+  background-color: #202024;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-page-3-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.section-card-page-3-header {
+  font-weight: bold;
+  padding: 0;
+  background-color: #202024;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.section-card-page-3-header h2 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 8px;
+  color: #ffffff;
+  white-space: nowrap;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin: 0px 0px 4px;
+}
+
+.section-card-page-3-header h3 {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+}
+
+.card-page-3-cup {
+  display: flex;
+  align-items: center;
+  color: rgb(202, 81, 43);
+  padding-right: 5px;
+  gap: 5px;
+}
+
+.card-page-3-cup svg {
+  width: 20px;
+  height: 20px;
+}
+
+.linkObiettivi {
+  display: flex;
+  box-align: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  box-pack: end;
+  justify-content: flex-end;
+}
+
+.linkObiettivi a {
+  color: #26bbff;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}

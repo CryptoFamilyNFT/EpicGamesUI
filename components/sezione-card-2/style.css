@@ -1,21 +1,12 @@
-@import url("../../common.css");
-
-.card-container {
-  height: 170px;
+.sezione-card-2 .card-container {
   display: flex;
-  flex-wrap: wrap;
   gap: 20px;
 }
 
-.card-3-img {
-  width: fit-content;
-  padding: 20px 0;
-}
-
 .card-3-img > img {
-  height: 200px;
   border: 1px solid none;
   border-radius: 10px;
+  width: 100%;
 }
 
 .card-3-title {
@@ -67,6 +58,18 @@
 .card-3-button > span:hover {
   color: #ffffff;
   background-color: #787878;
+}
+
+.card-3-img > svg {
+  position: absolute;
+  padding: 0 325px;
+  width: 30px;
+  color: black;
+  display: none;
+}
+
+.card-3-img:hover > svg {
+  display: block;
 }
 
 .card-3-img:hover {

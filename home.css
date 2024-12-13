@@ -1,0 +1,24 @@
+#nav-bar-section-2 {
+  padding: 0px 100px;
+  position: sticky;
+  top: 0;
+}
+
+main {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.carousel-1 {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 100px;
+}
+
+.carousel-if-1 {
+  width: 100%;
+  height: auto;
+  flex-grow: 1;
+}

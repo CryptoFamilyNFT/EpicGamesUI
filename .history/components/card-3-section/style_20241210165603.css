@@ -1,0 +1,87 @@
+
+.continer-card-3 {
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+    align-items: stretch;
+}
+
+.section-card-3 {
+    display: flex;
+    flex-flow: row;
+    gap: 5px;
+    justify-content: space-between;
+    position: relative;
+    align-items: stretch;
+}
+
+p {
+    color: lightgrey;
+}
+
+
+
+section-card-3 > 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
+    margin: 0;
+}
+
+.btn-general {
+    width: auto;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(45, 45, 45);
+    outline: none;
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    padding: 2px 15px;
+    border: none;
+}
+
+.section-card-3 > .card-container-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    justify-content: space-evenly;
+    align-content: normal;
+    max-width: 900px;
+    gap: 20px;
+    background-color: rgb(16, 16, 20);
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px 105px;
+}
+
+.section-card-3 > .card-s3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+}
+
+
+.img-container {
+    width: 100%;
+    position: relative;
+}
+
+img[id="card-section-3"] {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,53 @@
+.title-section-card-1 {
+  color: #ffffff;
+  padding: 15px;
+}
+
+.section-card-1 {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: #202024;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #202024;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-header {
+  font-weight: bold;
+  padding: 15px;
+  background-color: #202024;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-header h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.card-header p {
+  font-size: 12px;
+  color: #cccccc;
+  margin: 0;
+}
+
+.card-header h3 {
+  font-size: 15px;
+  font-weight: normal;
+  color: #ffffff;
+  margin: 0;
+}
