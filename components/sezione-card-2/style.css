@@ -73,7 +73,7 @@
 }
 
 .card-3-img:hover {
-  filter: brightness(200%);
-  filter: contrast(80%);
+  filter: brightness(100%);
+  filter: contrast(10%);
   transition: 0.2s;
 }
