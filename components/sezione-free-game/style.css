@@ -1,40 +1,33 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.section-card-1 {
+.section-free-games {
   color: #ffffff;
   padding: 30px 16px;
   background-color: #2a2a2a;
   border-radius: 20px;
+  margin-top: 30px;
 }
 
-
-
-.cards{
+.cards-free-games {
   display: flex;
   gap: 40px;
 }
 
-.card {
+.cards-free-games .card {
   border-radius: 10px;
   overflow: hidden;
 }
-.img {
+.cards-free-games .img {
   width: 100%;
   height: auto;
   object-fit: cover;
   display: block;
 }
 
-.card-img {
+.cards-free-games .card-img {
   border-radius: 10px;
   overflow: auto;
 }
 
-.card-header {
+.cards-free-games .card-header-free-games {
   font-weight: bold;
   padding: 15px;
   border-radius: 10px;
@@ -42,20 +35,20 @@ body {
   flex-direction: column;
   gap: 8px;
 }
-.card-header h2 {
+.cards-free-games .card-header-free-games h2 {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 8px;
   color: #ffffff;
 }
-.card-header p {
+.cards-free-games .card-header-free-games p {
   font-size: 16px;
   color: #cccccc;
   margin: 0;
 }
 
 .img-header {
-  color: white;
+  color: black;
   height: 40px;
   display: flex;
   justify-content: space-between;
@@ -86,7 +79,7 @@ body {
   color: blacks;
 }
 
-.card-img-bott-lock{
+.card-img-bott-lock {
   background-color: black;
   display: flex;
   justify-content: center;
@@ -102,7 +95,7 @@ body {
   padding: 5px;
 }
 
-.img-rigth-header a{
+.img-rigth-header a {
   text-decoration: none;
   padding: 10px 15px;
   border: 1px solid gray;
@@ -111,7 +104,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .cards{
+  .cards {
     flex-direction: column;
   }
 }
