@@ -1,18 +1,12 @@
-.continer-card-3 {
-  width: 100%;
-  gap: 10px;
-  justify-content: center;
-  position: relative;
-  align-items: stretch;
-}
-
 .section-card-3 {
   display: flex;
   flex-flow: row;
-  gap: 5px;
+  gap: 10px;
   justify-content: space-between;
   position: relative;
   align-items: stretch;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .section-card-3 p {

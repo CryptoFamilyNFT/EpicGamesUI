@@ -1,3 +1,8 @@
+.sezione-card-2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .sezione-card-2 .card-container {
   display: flex;
   gap: 20px;
@@ -62,7 +67,7 @@
 
 .card-3-img > svg {
   position: absolute;
-  padding: 0 325px;
+  padding: 0 315px;
   width: 30px;
   color: black;
   display: none;
@@ -73,7 +78,7 @@
 }
 
 .card-3-img:hover {
-  filter: brightness(100%);
-  filter: contrast(10%);
+  filter: brightness(200%);
+  filter: contrast(80%);
   transition: 0.2s;
 }

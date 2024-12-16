@@ -3,7 +3,8 @@
   padding: 30px 16px;
   background-color: #2a2a2a;
   border-radius: 20px;
-  margin-top: 30px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .cards-free-games {

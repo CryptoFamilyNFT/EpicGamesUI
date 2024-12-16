@@ -25,7 +25,8 @@
 }
 
 .sezione-1-container {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   padding-bottom: 30px;
 }
 
@@ -93,8 +94,4 @@
   font-weight: normal;
   color: #ffffff;
   margin: 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 76c525d21dff66ccfdca356d705b8f309cebec4e

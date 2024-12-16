@@ -2,28 +2,20 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  position: relative;
-  overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(16, 16, 20);
-  align-items: center;
-  justify-content: center;
 }
 
 .card-container-4 {
   display: flex;
-  justify-content: space-evenly;
-  align-items: stretch;
-  align-content: normal;
-  max-width: 900px;
+  width: 80%;
   gap: 20px;
   background-color: rgb(16, 16, 20);
-  position: relative;
+  margin: 0 auto;
 }
 
 .card-container-4 .image-card {
   width: 100%;
-  position: relative;
 }
 
 .card-container-4 .image-card img {
@@ -35,7 +27,6 @@
 .card-container-4 .card-content {
   font-size: 20px;
   color: white;
-  padding: 24px 0px;
 }
 
 .card-content h2 {

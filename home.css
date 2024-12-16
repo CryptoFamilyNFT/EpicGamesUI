@@ -1,20 +1,17 @@
-#nav-bar-section-2 {
-  padding: 0px 100px;
-  position: sticky;
-  top: 0;
-}
-
 main {
   max-width: 1350px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .carousel-1 {
-  width: auto;
+  width: 80%;
   height: auto;
   display: flex;
   flex-direction: row;
-  padding: 0px 100px;
+  margin: 0 auto;
 }
 
 .carousel-if-1 {
