@@ -1,0 +1,66 @@
+.c-section-cards-game{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.c-cards-game-page-2{
+    display: flex;
+    height: 100%;
+}
+
+.c-game-card{
+    padding: 5px;
+}
+
+.c-game-card img{
+    height: 100%;
+}
+
+
+.c-bgleft{
+    border-radius: 100%;
+    padding: 5px 9px; 
+    border: none;
+    background-color: #a6a6a6;
+}
+
+.c-bgright{
+    border-radius: 100%; 
+    padding: 5px 9px;  
+    border: none;
+    background-color: #a6a6a6;
+}
+
+.c-bgright:hover{
+    background-color: #dbdbdb;
+    transition: 0.4s;
+}
+
+.c-bgleft:hover{
+    background-color: #dbdbdb;
+    transition: 0.4s;
+}
+
+.c-bgleft:active{
+    border: 0.5px solid white;
+}
+
+.c-bgright:active{
+    border: 0.5px solid white;
+}
+
+@media screen and (max-width: 1440px){
+    
+    #c7, #c6, #c5{
+        display: none;
+    }
+    
+    @media screen and (max-width: 1024px) {
+        
+        #c4{
+            display: none;
+        }
+    }
+}
