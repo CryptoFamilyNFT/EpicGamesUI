@@ -10,5 +10,8 @@
 @import url("./components/sezione-colonne/style.css");
 @import url("./components/card-3-section/style.css");
 @import url("./components/sezione-free-game/style.css");
+@import url("./components/specifiche/style.css");
+@import url("./components/sezione-dlc/style.css");
+@import url("./components/sezione-card-page-4/style.css");
 @import url("home.css");
 @import url("game.css");

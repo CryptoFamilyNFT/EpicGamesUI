@@ -1,22 +1,38 @@
+.card-page-4-section {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 60%;
+}
+
+.card-section-4-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .card-page-4-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 5px;
   align-items: center;
+  justify-content: center;
   background-color: #202024;
-  max-width: 320px;
   border: 1px solid none;
   border-radius: 20px;
 }
 .card-page-4-img img {
-  max-width: 320px;
+  height: 150px;
+}
+
+.card-page-4-desc span {
+  max-width: 60%;
 }
 
 .card-page-4-desc {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 80%;
+  padding: 10px;
 }
 
 .card-page-4-desc .card-page-4-title {
@@ -30,10 +46,12 @@
   gap: 10px;
   padding: 5px;
   border-bottom: 2px solid #2a2a2a;
+  align-items: center;
+  font-size: 15px;
 }
 
 .v-desc > svg {
-  fill: #ffffff;
+  fill: black;
 }
 
 .card-page-4-desc .x-desc {
@@ -43,10 +61,12 @@
   gap: 10px;
   padding: 7px;
   border-bottom: 2px solid #2a2a2a;
+  align-items: center;
+  font-size: 15px;
 }
 
 .x-desc svg {
-  fill: #cccccc;
+  fill: #7d7d7d;
 }
 
 .card-page-4-price {
@@ -59,14 +79,17 @@
   flex-direction: column;
   gap: 10px;
   padding: 15px;
+  max-width: 60%;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .card-page-4-buttons .first-button {
   appearance: none;
   color: #101015;
-  background-color: #72d3ff;
-  padding: 10px 90px;
-  border: 1px solid #72d3ff;
+  background-color: #1e9cff;
+  padding: 10px 75px;
+  border: 1px solid #1e9cff;
   border-radius: 10px;
   font-weight: 600;
 }
@@ -75,7 +98,7 @@
   appearance: none;
   color: #ffffff;
   background-color: #202024;
-  padding: 10px 90px;
+  padding: 10px 65px;
   border: 1px solid #ffffff;
   border-radius: 10px;
   font-weight: 600;
@@ -91,13 +114,9 @@
   filter: contrast(80%);
 }
 
-.card-page-4-section {
-  display: flex;
-  gap: 20px;
-}
-
 .card-page-4-buttons #disabled {
   opacity: 40%;
+  padding: 10px 70px;
 }
 
 .card-page-4-buttons #disabled:hover {
