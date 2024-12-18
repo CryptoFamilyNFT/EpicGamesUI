@@ -17,15 +17,15 @@
   align-items: center;
   justify-content: center;
   background-color: #202024;
-  border: 1px solid none;
+  border: 1px solid #202024;
   border-radius: 20px;
 }
 .card-page-4-img img {
-  height: 150px;
+  max-width: 270px;
 }
 
 .card-page-4-desc span {
-  max-width: 60%;
+  max-width: 70%;
 }
 
 .card-page-4-desc {
@@ -38,6 +38,7 @@
 .card-page-4-desc .card-page-4-title {
   color: #ffffff;
   font-weight: 800;
+  margin-left: 5px;
 }
 
 .card-page-4-desc .v-desc {
