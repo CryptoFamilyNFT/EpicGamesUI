@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Epic Games UI</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav-container">
+      <div class="Nav-Logo">
+        <img src="../../assets/navbar/Logo-Epic.svg" id="Logo" alt="" />
+        <a href="" id="Store">STORE</a>
+      </div>
+
+      <div class="Nav-Main">
+        <div class="Nav-Tool-Bar">
+          <ul class="Nav-List-Bar">
+            <li><a href="">Assistenza</a></li>
+            <li>
+              <select>
+                <optgroup label="Dropdown">
+                  <option>Distribuisci</option>
+                </optgroup>
+              </select>
+            </li>
+          </ul>
+        </div>
+        <div class="Nav-Log-Bar">
+          <img src="../../assets/navbar/Globe.png" id="Globe" alt="" />
+          <a href="" class="Log">Accedi</a>
+          <a href="" class="Download">Scarica</a>
+        </div>
+        <div class="Nav-Mobile-Bar">
+          <a href="" class="Download">Scarica</a>
+          <img src="../../assets/navbar/hamburger.png" id="Nav-Hamburger" alt="" />
+        </div>
+      </div>
+    </nav>
+
+    <nav class="navbar-2">
+      <div class="navbar-elements">
+        <div class="srcbar">
+          <img src="../../assets/srclogo.svg" alt="srclogo" class="srclogo" />
+          <input type="search" id="src" placeholder="Search Store" />
+        </div>
+        <div class="navbar-2-links">
+          <a href="#" class="active">Discover</a>
+          <a href="#">Browse</a>
+          <a href="#">News</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Carosello-1 -->
+    <div class="carousel-1">
+      <div class="carousel-if-1">
+        <div class="container display-grid column-2 row-2">
+          <div class="container-overlay grid-column-1 grid-row-1 grid-span-row-2 align-center just-center">
+            <div class="absolute align-left container-info">
+              <div class="container-game top-20">
+                <img class="logo-game" src="../../assets/carousel/logo_staked2.png" alt="logo" />
+                <p id="preorder" class="mt-spacing-2">
+                  DISPONIBILE DAL 20 NOVEMBRE
+                </p>
+                <p>
+                  Vai alla scoperta della vasta Zona di alienazione di
+                  Chornobyl, piena di nemici pericolosi, letali anomalie e
+                  potenti artefatti.
+                </p>
+                <p id="price" class="mt">€79.99</p>
+              </div>
+              <div class="container-buttons">
+                <button id="buy">Pre-acquista ora</button>
+                <button id="my-list" class="align-center flex space-bt">
+                  <svg style="color: black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  <p>Lista dei desideri</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-if-2">
+        <div id="card-carosello-2" class="vertical-container">
+          <div id="default" class="card-carosello2">
+            <img class="card-carosello2-image" src="../../assets/card-carosello2/black.avif" />
+            <p>
+              Black Friday - <br />
+              Cyber Monday <br />
+              Sale
+            </p>
+          </div>
+          <div class="card-carosello2">
+            <img class="card-carosello2-image"
+              src="https://cdn2.unrealengine.com/en-egs-fn-c1s1-og-carousel-thumb-1200x1600-017cf7e7cad2.jpg?resize=1&w=96&h=128&quality=medium" />
+            <p>Fortnite OG</p>
+          </div>
+          <div class="card-carosello2">
+            <img class="card-carosello2-image"
+              src="https://cdn2.unrealengine.com/egs-path-of-exile-2-carousel-thumb-1200x1600-48a310ab1ccf.jpg?resize=1&w=96&h=128&quality=medium" />
+            <p>Path of Exile 2</p>
+          </div>
+          <div class="card-carosello2">
+            <img class="card-carosello2-image"
+              src="https://cdn2.unrealengine.com/en-roastgoose-carousel-thumbnail-1200x1600-811ccd8b2cb3.jpg?resize=1&w=96&h=128&quality=medium" />
+            <p>Marvel Rivals</p>
+          </div>
+          <div class="card-carosello2">
+            <img class="card-carosello2-image"
+              src="https://cdn2.unrealengine.com/egs-carousel-infinity-nikki-carousel-thumb-1200x1600-66d7b3a33991.jpg?resize=1&w=96&h=128&quality=medium" />
+            <p>Infinity Nikki</p>
+          </div>
+          <div class="card-carosello2">
+            <img class="card-carosello2-image"
+              src="https://cdn2.unrealengine.com/egs-delta-force-carousel-thumb-1200x1600-6ff76ca440d6.jpg?resize=1&w=96&h=128&quality=medium" />
+            <p>Delta Force</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sezione-1-container">
+      <div class="title-section-card-1">
+        <div class="title-section-container">
+          <h1>Principali nuove uscite</h1>
+          <svg aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-sedoc7" width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+              clip-rule="evenodd" fill-rule="evenodd"></path>
+          </svg>
+        </div>
+        <div class="arrow-button">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+        </div>
+      </div>
+      <section class="section-card-1">
+        <div class="card">
+          <div class="card-1-img">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <img src="../../assets/sezione-card-1/voidwrought.png" alt="voidwrought" class="card-img" />
+          </div>
+          <div class="card-header">
+            <p>Base Game</p>
+            <h2>Voidwrought</h2>
+            <h3>€17.99</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-1-img">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <img src="../../assets/sezione-card-1/Valorant-img.jpg" alt="Valorant" class="card-img" />
+          </div>
+          <div class="card-header">
+            <p>Base Game</p>
+            <h2>Valorant</h2>
+            <h3>€23.00</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-1-img">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <img src="../../assets/sezione-card-1/Blade-of-god-x.jpg" alt="Blade-of-god-x" class="card-img" />
+          </div>
+          <div class="card-header">
+            <p>Base Game</p>
+            <h2>Blade of God X</h2>
+            <h3>Gratis</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-1-img">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <img src="../../assets/sezione-card-1/Horizon-zero-down.jpg" alt="Horizon" class="card-img" />
+          </div>
+          <div class="card-header">
+            <p>Base Game</p>
+            <h2>Horizon Zero Dawn Remastered</h2>
+            <h3>€49.99</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-1-img">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <img src="../../assets/sezione-card-1/the-coma-2b-catacomb.jpg" alt="the-coma-2b-catacomb"
+              class="card-img" />
+          </div>
+          <div class="card-header">
+            <p>Base Game</p>
+            <h2>The Coma 2B Catacomb:</h2>
+            <h3>€14.99</h3>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="sezione-card-2">
+      <div class="card-container">
+        <div class="card-element">
+          <div class="card-3-img">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <img src="../../assets/card3/card-3.png" alt="card-3" />
+          </div>
+          <div class="card-3-desc">
+            <span class="card-3-title">Rayman Legends</span>
+            <div class="price-box">
+              <span class="sconto">-80%</span>
+              <span class="inline-price">$29.99</span>
+              <span class="price">$5.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-element">
+          <div class="card-3-img">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+
+            <img
+              src="https://cdn2.unrealengine.com/en-egs-dotw-antstream-arcade-lifetime-breaker-1920x1080-2249d4e5f0dd.jpg?resize=1&w=854&h=480&quality=medium"
+              alt="card-3" />
+          </div>
+          <div class="card-3-desc">
+            <span class="card-3-title">Antstream Arcade - Lifetime</span>
+            <div class="price-box">
+              <span class="sconto">-50%</span>
+              <span class="inline-price">$99.99</span>
+              <span class="price">$49.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-element">
+          <div class="card-3-img">
+            <img
+              src="https://cdn2.unrealengine.com/en-sales-specials-dotw-breaker-asset-1920x1080-1313ee288796.jpg?resize=1&w=854&h=480&quality=medium"
+              alt="card-3" />
+          </div>
+          <div class="card-3-desc">
+            <span class="card-3-title" id="last-card">Check out all the deals <br />
+              &nbsp;for this week.</span>
+            <div class="card-3-button">
+              <span>Browse</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-container">
+      <div class="card2">
+        <div class="image-card">
+          <img alt="NFS Unbound Vol. 9 Speed Pass"
+            src="https://cdn2.unrealengine.com/egs-need-for-speed-underground-vol-9-breaker-1920x1080-039428697180.jpg?resize=1&amp;w=854&amp;h=480&amp;quality=medium"
+            class="css-lyfb9t"
+            data-image="https://cdn2.unrealengine.com/egs-need-for-speed-underground-vol-9-breaker-1920x1080-039428697180.jpg?resize=1&amp;w=854&amp;h=480&amp;quality=medium"
+            data-testid="picture-image" />
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+        </div>
+
+        <div class="card-content">
+          <h2>Fortnite</h2>
+          <p>
+            Make the world yours and bring a new sound with music icon Juice
+            WRLD.
+          </p>
+          <button>
+            <span>Play Now</span>
+          </button>
+        </div>
+      </div>
+      <div class="card2">
+        <div class="image-card">
+          <img alt="Avatar: Frontiers of Pandora™"
+            src="https://cdn2.unrealengine.com/egs-avatar-frontiers-of-pandora-secrets-of-the-spires-dlc-breaker-1920x1080-19486d2bc8a7.jpg?resize=1&amp;w=854&amp;h=480&amp;quality=medium"
+            class="css-lyfb9t"
+            data-image="https://cdn2.unrealengine.com/egs-avatar-frontiers-of-pandora-secrets-of-the-spires-dlc-breaker-1920x1080-19486d2bc8a7.jpg?resize=1&amp;w=854&amp;h=480&amp;quality=medium"
+            data-testid="picture-image" />
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+        </div>
+
+        <div class="card-content">
+          <h2>Avatar: Frontiers of Pandora™</h2>
+          <p>
+            Epic aerial battles await in the Spires of the Clouded Forest in
+            the Secrets of the Spires DLC
+          </p>
+          <button>
+            <span>Play Now</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="flex-content">
+      <section class="section">
+        <header class="header-title">
+          <h2>Top Seller</h2>
+          <span>
+            <svg aria-hidden="true" class="header-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                clip-rule="evenodd" fill-rule="evenodd"></path>
+            </svg>
+          </span>
+        </header>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/offer/b61e8ddd14e94619b7a74cf9d73f86b5/EGS_EASPORTSFC25StandardEdition_EACanada_S2_1200x1600-6e6b5c1d5d30e15b1dbdde721c6bc544?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="EA SPORTS FC™ 25 Standard Edition"
+            src="https://cdn1.epicgames.com/offer/b61e8ddd14e94619b7a74cf9d73f86b5/EGS_EASPORTSFC25StandardEdition_EACanada_S2_1200x1600-6e6b5c1d5d30e15b1dbdde721c6bc544?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">EA SPORTS FC™ 25 Standard Edition</p>
+            <span class="card-description"> Trial Available</span>
+            <span class="price"> €69.99</span>
+          </div>
+        </div>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait%20Store%20Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="Grand Theft Auto V: Premium Edition"
+            src="https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait%20Store%20Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">Grand Theft Auto V</p>
+            <span class="price"> €29.99</span>
+          </div>
+        </div>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_theHunterCalloftheWild_ExpansiveWorlds_S2_1200x1600-1e9b46aaabc33fe0a08cf5b418e76ba2?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="theHunter: Call of the Wild™"
+            src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_theHunterCalloftheWild_ExpansiveWorlds_S2_1200x1600-1e9b46aaabc33fe0a08cf5b418e76ba2?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">TheHunter: Call of the Wild™</p>
+            <div class="prezzi-vari">
+              <span class="sconto">-80%</span>
+              <span class="prezzo-precedente">€19.99</span>
+              <span class="price"> €3.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/undefined/offer/KEY_ART_LOGO_640x854-640x854-d7402c9d56f9fc6d90d5e8550420e30b.jpg?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="Steep Standard Edition"
+            src="https://cdn1.epicgames.com/undefined/offer/KEY_ART_LOGO_640x854-640x854-d7402c9d56f9fc6d90d5e8550420e30b.jpg?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">Steep Standard</p>
+            <div class="prezzi-vari">
+              <span class="sconto">-85%</span>
+              <span class="prezzo-precedente">€29.99</span>
+              <span class="price"> €4.49</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/spt-assets/bd49b69c7a9e410b83b7c553c837a00a/crosshair-x-uqsfp.png?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="Crosshair X"
+            src="https://cdn1.epicgames.com/spt-assets/bd49b69c7a9e410b83b7c553c837a00a/crosshair-x-uqsfp.png?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">Crosshair X</p>
+            <span class="price"> €7.19</span>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <header class="header-title">
+          <h2>Most Played</h2>
+          <span>
+            <svg aria-hidden="true" class="header-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                clip-rule="evenodd" fill-rule="evenodd"></path>
+            </svg>
+          </span>
+        </header>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/EGS_RocketLeague_PsyonixLLC_S2_1200x1600-b61e9e7ec5d3294dfa514f23fc7f0684?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="Rocket League®"
+            src="https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/EGS_RocketLeague_PsyonixLLC_S2_1200x1600-b61e9e7ec5d3294dfa514f23fc7f0684?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">Rocket League®</p>
+            <span class="price">Free</span>
+          </div>
+        </div>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/offer/9c59efaabb6a48f19b3485d5d9416032/EGS_LEGOStarWarsTheSkywalkerSaga_TTGames_S2_1200x1600-fba27b1ae598e355c3ad42d04d9025ba?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="LEGO® Star Wars™: The Skywalker Saga"
+            src="https://cdn1.epicgames.com/offer/9c59efaabb6a48f19b3485d5d9416032/EGS_LEGOStarWarsTheSkywalkerSaga_TTGames_S2_1200x1600-fba27b1ae598e355c3ad42d04d9025ba?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">LEGO® Star Wars™</p>
+            <div class="prezzi-vari">
+              <span class="sconto">-100%</span>
+              <span class="prezzo-precedente">€49.99</span>
+              <span class="price"> Free</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait%20Store%20Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="Grand Theft Auto V: Premium Edition"
+            src="https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait%20Store%20Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">Grand Theft Auto V</p>
+            <div class="prezzi-vari">
+              <span class="price"> €29.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/offer/2b09519576cb4276bfd8df52f5288e4a/EGS_BusSimulator21NextStop_stillalivestudios_S2_1200x1600-79304bca6b4b6f8abeeb7077ea30d0e0?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="Bus Simulator 21 Next Stop"
+            src="https://cdn1.epicgames.com/offer/2b09519576cb4276bfd8df52f5288e4a/EGS_BusSimulator21NextStop_stillalivestudios_S2_1200x1600-79304bca6b4b6f8abeeb7077ea30d0e0?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">Bus Simulator 21</p>
+            <div class="prezzi-vari">
+              <span class="sconto">-100%</span>
+              <span class="prezzo-precedente">€34.99</span>
+              <span class="price"> Free</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/spt-assets/eb15454c010f4a748498cd3a62096a52/marvel-rivals-wq3mr.png?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="Marvel Rivals"
+            src="https://cdn1.epicgames.com/spt-assets/eb15454c010f4a748498cd3a62096a52/marvel-rivals-wq3mr.png?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">Marvel Rivals</p>
+            <span class="price"> Free</span>
+          </div>
+        </div>
+      </section>
+      <section class="section1">
+        <header class="header-title">
+          <h2>Top Upcoming Wishlisted</h2>
+          <span>
+            <svg aria-hidden="true" class="header-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                clip-rule="evenodd" fill-rule="evenodd"></path>
+            </svg>
+          </span>
+        </header>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/offer/14a28903e3d14bd5aa3e6dbf10868126/EN_EGST_StorePortrait_1200x1600_1200x1600-a010fb65414cbbc48e055d1f6eac41b8?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="Assassin’s Creed Shadows"
+            src="https://cdn1.epicgames.com/offer/14a28903e3d14bd5aa3e6dbf10868126/EN_EGST_StorePortrait_1200x1600_1200x1600-a010fb65414cbbc48e055d1f6eac41b8?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">Assassins Creed</p>
+            <span class="card-description1"> Available 02/14/25</span>
+          </div>
+        </div>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/spt-assets/a7641d724f1242db95f8f72fc0fd8d81/kingdom-come-deliverance-2-14rqo.png?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="Kingdom Come: Deliverance II"
+            src="https://cdn1.epicgames.com/spt-assets/a7641d724f1242db95f8f72fc0fd8d81/kingdom-come-deliverance-2-14rqo.png?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">Kingdome Come</p>
+            <span class="card-description1"> Available 02/04/25</span>
+            <span class="price"> €59.99</span>
+          </div>
+        </div>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/spt-assets/3209b4dceba04b16bb97558f97c18ea9/33-immortals-9zmqb.png?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="33 Immortals"
+            src="https://cdn1.epicgames.com/spt-assets/3209b4dceba04b16bb97558f97c18ea9/33-immortals-9zmqb.png?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">33 Immortals</p>
+            <div class="prezzi-vari">
+              <span class="card-description1"> Coming Soon</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/spt-assets/bec08df44a434459a5ae9b1254797d5b/mini-royale-1nhuh.png?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="Mini Royale"
+            src="https://cdn1.epicgames.com/spt-assets/bec08df44a434459a5ae9b1254797d5b/mini-royale-1nhuh.png?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">Mini Royale</p>
+            <span class="card-description1"> Coming Soon</span>
+          </div>
+        </div>
+        <div class="card-sezione-colonne">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <img data-testid="lazy-image-observer"
+            data-image="https://cdn1.epicgames.com/offer/16ed9f15b1b449ccb59cb610b13df5b8/SMITE2-PortraitImagev2-CA1-1200x1600_1200x1600-d0b3d104669cb7eb331bd19907642eb0?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            class="card-sezione-colonne-image" alt="SMITE 2"
+            src="https://cdn1.epicgames.com/offer/16ed9f15b1b449ccb59cb610b13df5b8/SMITE2-PortraitImagev2-CA1-1200x1600_1200x1600-d0b3d104669cb7eb331bd19907642eb0?resize=1&amp;w=360&amp;h=480&amp;quality=medium"
+            data-animated="animated" />
+          <div class="card-sezione-colonne-content">
+            <p class="card-title">SMITE 2</p>
+            <span class="card-description1"> Coming Soon</span>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- section 3 card -->
+    <div class="container-card-3">
+      <div class="section-card-3">
+        <div id="card-1" class="card-s3">
+            <img id="card-section-3" src="https://cdn2.unrealengine.com/it-fn33-00-c1s1-classic-figment-breaker-keyart-1920x1080-1920x1080-74eaac9aff49.jpg?resize=1&w=854&h=480&quality=medium" alt="">
+            <div class="card-container">
+                <h3>Fortnite</h3>
+                <p>Il sergente è presente. Il bundle CCFN Drake campione è ora disponibile!</p>
+                <button class="btn-general">
+                    Vedi nel negozio
+                    <i class="fa-stack custom-icon padding-10 flex align-left just-start w100"></i>
+
+                </button>
+            </div>
+        </div>
+        <div id="card-2" class="card-s3">
+            <img id="card-section-3" src="https://cdn2.unrealengine.com/fneco-33-30-spiderverse-social-1920x1080-1920x1080-4d9594c92b5e.jpg?resize=1&w=854&h=480&quality=medium" alt="">
+            <div class="card-container">
+                <h3>Fortnite</h3>
+                <p>Il sergente è presente. Il bundle CCFN Drake campione è ora disponibile!</p>
+                <button class="btn-general">
+                    Vedi nel negozio
+                    <i class="fa-stack custom-icon padding-10 flex align-left just-start w100"></i>
+
+                </button>
+            </div>
+        </div>
+        <div id="card-3" class="card-s3">
+            <img id="card-section-3" src="https://cdn2.unrealengine.com/fnsp-06-lemoncart-itemshopbundle-social-1920x1080-ece556cdb3f4.jpg?resize=1&w=854&h=480&quality=medium" alt="">
+            <div class="card-container">
+                <h3>Fortnite</h3>
+                <p>Il sergente è presente. Il bundle CCFN Drake campione è ora disponibile!</p>
+                <button class="btn-general">
+                    Vedi nel negozio
+                    <i class="fa-stack custom-icon padding-10 flex align-left just-start w100"></i>
+
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+  </main>
+  <footer class="main-footer">
+    <div class="footer-head">
+      <div class="social">
+        <img src="../../assets/footer/fblogo.png" alt="fblogo" />
+        <img src="../../assets/footer/twitterlogo.png" alt="twitterlogo" />
+        <img src="../../assets/footer/ytlogo.png" alt="ytlogo" />
+      </div>
+      <img class="upbutton" src="../../assets/footer/upbutton.png" alt="upbutton" />
+    </div>
+    <div class="footer-links">
+      <div class="links1">
+        <span>Resources</span>
+        <ul>
+          <li><a href="#">Support-A-Creator</a></li>
+          <li><a href="#">Distribute on Epic Games</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Company</a></li>
+          <li><a href="#">Fan Art Policy</a></li>
+          <li><a href="#">UX Research</a></li>
+          <li><a href="#">Store EULA</a></li>
+          <li><a href="#">Online Services</a></li>
+          <li><a href="#">Community Rules</a></li>
+          <li><a href="#">Epic Newsroom</a></li>
+        </ul>
+      </div>
+      <div class="links2">
+        <span>Made By Epic Games</span>
+        <ul>
+          <li><a href="#">Battle Breakers</a></li>
+          <li><a href="#">Fortnite</a></li>
+          <li><a href="#">Infinity Blade</a></li>
+          <li><a href="#">Robo Recall</a></li>
+          <li><a href="#">Shadow Complex</a></li>
+          <li><a href="#">Unreal Tournament</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-end">
+      <div class="policy-paragraph">
+        <p>
+          © 2024, Epic Games, Inc. All rights reserved. Epic, Epic Games, the
+          Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine,
+          the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament
+          logo are trademarks or registered trademarks of Epic Games, Inc. in
+          the United States of America and elsewhere. Other brands or product
+          names are the trademarks of their respective owners. Our websites
+          may contain links to other sites and resources provided by third
+          parties. These links are provided for your convenience only. Epic
+          Games has no control over the contents of those sites or resources,
+          and accepts no responsibility for them or for any loss or damage
+          that may arise from your use of them.
+        </p>
+      </div>
+      <div class="footer-end-links">
+        <ul>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Store Refund Policy</a></li>
+        </ul>
+        <div>
+          <img src="../../assets/footer/epicgameslogo.png" alt="epicgames-logo" />
+          <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+            <g fill-rule="evenodd">
+              <path
+                d="M100.61 72.875c-1.063 5.121-5.785 18.266-20.852 25.379l-6.05-6.8-10.212 10.261A37.67 37.67 0 0133.7 86.43c1.086.34 2.203.551 3.336.63 1.672.03 3.485-.583 3.485-3.391V55.974a4.57 4.57 0 00-5.735-4.57c-4.726 1.089-8.504 12.882-8.504 12.882a37.509 37.509 0 0112.98-28.738 38.043 38.043 0 0119.148-8.836c-5.16 2.942-8.058 7.739-8.058 11.762 0 6.477 3.898 5.692 5.054 4.739v37.379c.196.468.453.91.762 1.316a5.528 5.528 0 004.516 2.285c3.902 0 8.968-4.457 8.968-4.457V49.478c0-3.078-2.32-6.793-4.644-8.07 0 0 4.3-.762 7.621 1.777a28.338 28.338 0 011.984-2.183c7.747-7.598 15.04-9.762 21.117-10.844 0 0-11.047 8.683-11.047 20.332 0 8.664.223 29.789.223 29.789 4.098 3.957 10.195-1.758 15.703-7.403z" />
+              <path
+                d="M64 2.383C29.973 2.383 2.383 29.973 2.383 64S29.973 125.617 64 125.617 125.617 98.027 125.617 64 98.027 2.383 64 2.383zm0 120.77C31.332 123.153 4.848 96.669 4.848 64 4.852 31.333 31.336 4.849 64.004 4.853c32.668 0 59.148 26.484 59.148 59.152S96.668 123.157 64 123.157z" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

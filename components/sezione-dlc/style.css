@@ -1,0 +1,168 @@
+.flex-sezione-dlc {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+}
+
+.card-container {
+  width: 100%;
+  height: auto;
+  background-color: #202024;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  cursor: pointer;
+  gap: 10px;
+  padding: 16px;
+  border-radius: 12px;
+  gap: 24px;
+  justify-content: flex-start;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 8px;
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.image-card5 {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card5-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-left: 4px;
+  gap: 10px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.card5-content2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.price {
+  font-size: 14px;
+}
+
+.prezzi-vari {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.sconto {
+  background-color: rgb(38, 187, 255);
+  color: black;
+  padding: 0px 8px;
+  border-radius: 10px;
+}
+
+.prezzo-precedente {
+  color: #ffffffa6;
+  text-decoration: line-through;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-top: auto;
+}
+
+.button-container button {
+  appearance: none;
+  border: 1px solid #1e9cff;
+}
+
+.sottotitolo {
+  font-size: 12px;
+  color: #ffffffa6;
+}
+
+.sottotitolo1 {
+  font-size: 12px;
+  color: #ffffffa6;
+  margin-top: 8px;
+}
+
+.card-title {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 14px;
+  color: #ffffffa6;
+  margin-bottom: 16px;
+}
+
+.add-to-cart {
+  color: black;
+  background-color: #26bbff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.add-to-wishlist {
+  color: white;
+  padding: 7px 15px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid #ffffffa6;
+  transition: 0.3s ease;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.add-to-cart:hover {
+  background-color: #1e9cff;
+}
+
+.add-to-wishlist:hover {
+  background-color: #6060608e;
+}
+
+.section-title {
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.scritta-see-more {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #26bbff;
+  cursor: pointer;
+}
+.scritta-see-more:hover {
+  text-decoration: underline;
+}
+
+.icona-freccia {
+  fill: #ff6200;
+}
+
+.link-see-more {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}

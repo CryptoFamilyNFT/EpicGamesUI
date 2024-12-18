@@ -1,0 +1,83 @@
+.specifiche-title {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+.specifiche-content-title {
+  font-size: 16px;
+  color: white;
+  border-bottom: 2px solid #26bbff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.scritta-bianca {
+  font-size: 16px;
+  color: white;
+}
+.scritta-grigia {
+  font-size: 16px;
+  color: #ffffffa6;
+}
+
+.specifiche-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+  margin-top: 50px;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.specifiche-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #202024;
+  border-radius: 8px;
+  gap: 10px;
+  flex: 1;
+  padding: 20px;
+}
+.windows {
+  display: flex;
+  width: fit fit-content;
+  cursor: pointer;
+}
+.specifiche-content1 {
+  display: flex;
+  width: 100%;
+  flex: 1;
+  gap: 10px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+.specifiche-content1 p {
+  flex: 1;
+}
+.flex-secondario {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 15px;
+  gap: 5px;
+}
+.specifiche-content2 {
+  display: flex;
+  width: 100%;
+  flex: 1;
+  gap: 10px;
+}
+.primo-gruppo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 35px 0px 0px;
+}
+.secondo-gruppo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 35px 0px 0px;
+}

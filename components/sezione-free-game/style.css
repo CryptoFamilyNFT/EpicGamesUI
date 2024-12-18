@@ -1,0 +1,111 @@
+.section-free-games {
+  color: #ffffff;
+  padding: 30px 16px;
+  background-color: #2a2a2a;
+  border-radius: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cards-free-games {
+  display: flex;
+  gap: 40px;
+}
+
+.cards-free-games .card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cards-free-games .img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.cards-free-games .card-img {
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.cards-free-games .card-header-free-games {
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.cards-free-games .card-header-free-games h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+.cards-free-games .card-header-free-games p {
+  font-size: 16px;
+  color: #cccccc;
+  margin: 0;
+}
+
+.img-header {
+  color: black;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.img-left-header {
+  display: flex;
+}
+
+.img-left-header p {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.img-rigth-header {
+  display: flex;
+  align-items: center;
+}
+
+.card-img-bott {
+  background-color: #26bbff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blacks;
+}
+
+.card-img-bott-lock {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-bott p {
+  font-weight: 700;
+  padding: 5px;
+}
+.card-img-bott-lock p {
+  font-weight: 700;
+  padding: 5px;
+}
+
+.img-rigth-header a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .cards {
+    flex-direction: column;
+  }
+}
