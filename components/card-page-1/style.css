@@ -1,3 +1,8 @@
+.game-specifications .active {
+  color: #ffffff;
+  border-bottom: 2px solid #26bbff;
+  padding-bottom: 5px;
+}
 .title-card-page-1 {
   color: #ffffff;
   font-size: 25px;
