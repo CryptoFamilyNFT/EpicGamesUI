@@ -1,3 +1,19 @@
+@import url("styles.css");
+
 main {
-  margin-left: 200px;
+  margin-left: 170px;
+}
+
+.game-carosello-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  max-width: 90%;
+}
+
+.carosello-and-desc {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

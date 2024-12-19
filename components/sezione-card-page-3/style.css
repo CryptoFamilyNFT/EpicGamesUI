@@ -1,7 +1,6 @@
 .title-section-card-page-3 {
   color: #ffffff;
-  padding: 15px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -9,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  width: 60%;
 }
 
 .section-card-page-3 .card {
@@ -62,7 +62,7 @@
 .card-page-3-cup {
   display: flex;
   align-items: center;
-  color: rgb(202, 81, 43);
+  color: #26bbff;
   padding-right: 5px;
   gap: 5px;
 }
@@ -74,16 +74,17 @@
 
 .linkObiettivi {
   display: flex;
-  box-align: center;
   align-items: center;
-  flex-direction: row-reverse;
-  box-pack: end;
-  justify-content: flex-end;
+  flex-direction: row;
+  gap: 3px;
 }
 
 .linkObiettivi a {
   color: #26bbff;
-  padding: 15px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
+}
+
+.linkObiettivi svg {
+  fill: #ff6b26;
 }
