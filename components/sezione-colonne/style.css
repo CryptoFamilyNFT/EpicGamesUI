@@ -31,7 +31,6 @@ body {
   cursor: pointer;
   gap: 10px;
   padding: 10px;
-  margin: 0 auto;
 }
 
 .card-sezione-colonne-image {
@@ -115,10 +114,6 @@ body {
   justify-content: flex-start;
   align-items: stretch;
   height: 500px;
-  padding: 10px 80px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
   width: auto;
 }
 
@@ -126,18 +121,5 @@ body {
   filter: brightness(200%);
   filter: contrast(80%);
   transition: 0.2s;
-  background-color: grey;
   border-radius: 8px;
-}
-
-.card-sezione-colonne svg {
-  color: black;
-  width: 20px;
-  position: absolute;
-  padding: 0px 0px 42px 27px;
-  display: none;
-}
-
-.card-sezione-colonne:hover svg {
-  display: block;
 }
