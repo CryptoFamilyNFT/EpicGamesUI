@@ -9,6 +9,7 @@ main {
   flex-direction: row;
   gap: 20px;
   max-width: 90%;
+  height: 1200px;
 }
 
 .carosello-and-desc {
@@ -16,4 +17,86 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.carosello-game-p p {
+  padding: 30px 0;
+  font-size: 17px;
+}
+
+.carosello-genres-feature {
+  display: flex;
+  gap: 200px;
+}
+
+.genres-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+  border-left: 2px solid #2a2a2a;
+}
+
+.carosello-genres {
+  display: flex;
+  gap: 10px;
+}
+
+.carosello-feature {
+  display: flex;
+  gap: 10px;
+}
+
+.genres-p {
+  background-color: #2a2a2a;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.carosello-game-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.carosello-game-desc p {
+  color: #cccccc;
+}
+
+.carosello-desc-p ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: disc;
+  color: #ffff;
+}
+
+.carosello-show-more {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+  padding: 11px 0;
+}
+
+.carosello-show-more svg {
+  color: rgb(255, 98, 0);
+  height: 20px;
+}
+
+.carosello-show-more p {
+  color: #1e9cff;
+}
+
+.carosello-show-more:hover p {
+  text-decoration: underline;
 }
