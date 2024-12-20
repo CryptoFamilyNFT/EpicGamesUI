@@ -1,3 +1,14 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #101015;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .header-title {
   display: flex;
   align-items: center;
@@ -9,7 +20,7 @@
 }
 
 .header-icon {
-  fill: black;
+  fill: white;
 }
 
 .flex-content {
@@ -22,13 +33,10 @@
 .colContainer {
   width: 80%;
   position: relative;
-  display: flex; /* Aggiunto per assicurarsi che gli elementi all'interno siano flessibili */
+  display: flex; /* Aggiunto per assicurarsi che gli elementi all'interno siano flex - todo: is here? */
+  align-items: center;
   justify-content: center;
   gap: 10px;
-}
-
-.colContainer section {
-  gap: 15px;
 }
 
 .card-sezione-colonne {
@@ -36,7 +44,7 @@
 }
 
 .card-sezione-colonne-image {
-  height: 60px;
+  height: 64px;
   width: auto;
   border-radius: 8px;
 }
@@ -109,8 +117,7 @@
   margin-bottom: 40px;
 }
 
-.section,
-.section1 {
+.section {
   border-right: 0.667px solid white;
 }
 
@@ -138,6 +145,7 @@
 }
 
 @media screen and (max-width: 800px) {
+
   .dotsCol {
     display: flex;
     justify-content: center;
@@ -146,7 +154,7 @@
     width: 100%;
   }
 
-  .colContainer {
+  .colContainer{
     overflow-x: auto;
     width: auto;
     display: flex;
@@ -164,12 +172,14 @@
 }
 
 @media screen and (max-width: 480px) {
+
   .flex-content {
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+
   }
 
   .card-sezione-colonne {
@@ -180,8 +190,7 @@
     font-size: 14px;
   }
 
-  .card-description,
-  .card-description1 {
+  .card-description, .card-description1 {
     font-size: 10px;
   }
 
