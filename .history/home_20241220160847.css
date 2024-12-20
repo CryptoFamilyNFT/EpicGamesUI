@@ -1,0 +1,31 @@
+main {
+  max-width: 1350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.carousel-1 {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.carousel-if-1 {
+  width: 100%;
+  display: flex;
+  height: auto;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .carousel-1 {
+    .carousel-if-1 {
+      display: none;
+    }
+  }
+  
+}
