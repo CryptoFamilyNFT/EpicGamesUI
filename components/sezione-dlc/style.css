@@ -1,14 +1,8 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
 .flex-sezione-dlc {
   display: flex;
   flex-direction: column;
-  background-color: black;
   gap: 20px;
+  width: 60%;
 }
 
 .card-container {
@@ -84,11 +78,14 @@
 
 .button-container {
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
   gap: 10px;
   width: 100%;
   margin-top: auto;
+}
+
+.button-container button {
+  appearance: none;
+  border: 1px solid #1e9cff;
 }
 
 .sottotitolo {
@@ -161,12 +158,11 @@
 }
 
 .icona-freccia {
-  fill: #26bbff;
+  fill: #ff6200;
 }
 
 .link-see-more {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   gap: 3px;
 }

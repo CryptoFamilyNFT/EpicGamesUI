@@ -1,19 +1,16 @@
-body {
-  background-color: #101015;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .sticky-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: fit-content;
+  width: 50%;
   align-items: center;
+  height: fit-content;
+  position: sticky;
+  top: 0;
 }
 
 .sticky-img > img {
   width: 280px;
-  padding: 0 60px;
 }
 
 .base-game {
@@ -58,7 +55,7 @@ body {
 }
 
 .sticky-buttons input:first-child {
-  background-color: #72d3ff;
+  background-color: #1e9cff;
   color: #101015;
 }
 
@@ -80,6 +77,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   color: #ffffff;
+  align-items: center;
 }
 
 .sticky-desc-span > .sticky-desc-2 {
@@ -92,7 +90,7 @@ body {
 
 .sticky-desc-2 > svg {
   width: 20px;
-  color: #ffffff;
+  color: black;
 }
 
 .bottom-span {
@@ -100,10 +98,12 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  align-items: center;
 }
 
 .bottom-span svg {
   width: 20px;
+  color: #101015;
 }
 
 .bottom-span:hover {
