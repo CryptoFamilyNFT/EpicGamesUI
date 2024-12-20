@@ -100,3 +100,42 @@ main {
 .carosello-show-more:hover p {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+  .game-carosello-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .carosello-game-desc {
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  .sticky-container {
+    justify-content: flex-start;
+  }
+
+  .card-page-4-container {
+    width: 100%;
+  }
+  .card-page-4-section {
+    overflow: hidden;
+  }
+  .card-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .image-container {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-card-page-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
