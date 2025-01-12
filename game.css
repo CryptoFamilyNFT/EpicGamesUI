@@ -1,19 +1,17 @@
 @import url("styles.css");
 
 main {
-  margin-left: 170px;
+  padding: 10px;
 }
 
 .game-carosello-section {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  max-width: 90%;
   height: 1200px;
 }
 
 .carosello-and-desc {
-  width: 60%;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -100,6 +98,21 @@ main {
 .carosello-show-more:hover p {
   text-decoration: underline;
 }
+.specifiche-container {
+  max-width: 890px;
+}
+
+.flex-sezione-dlc {
+  max-width: 890px;
+}
+
+.section-card-page-3 {
+  max-width: 920px;
+}
+
+.card-page-4-section {
+  max-width: 920px;
+}
 
 @media screen and (max-width: 768px) {
   .game-carosello-section {
@@ -119,23 +132,56 @@ main {
     width: 100%;
   }
   .card-page-4-section {
-    overflow: hidden;
+    overflow: scroll;
   }
   .card-container {
-    width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
   }
   .image-container {
     margin-bottom: 5px;
   }
-}
 
-@media screen and (max-width: 375px) {
-  .section-card-page-3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  @media screen and (max-width: 375px) {
+    .section-card-page-3 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      width: fit-content;
+      max-height: 450px;
+      overflow: hidden;
+    }
+
+    .carosello-genres-feature {
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .feature-section {
+      border: none;
+      padding-left: 0;
+    }
+
+    .sticky-container {
+      position: static;
+      order: -1;
+    }
+
+    .game-carosello-section {
+      flex-direction: column;
+      height: max-content;
+    }
+
+    .title-card-page-1 {
+      margin: 0 auto;
+    }
+
+    .game-specifications {
+      margin: 0 auto;
+    }
+
+    .base-game {
+      padding: 0;
+      padding-left: 20px;
+    }
   }
 }

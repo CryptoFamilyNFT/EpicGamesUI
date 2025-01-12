@@ -6,9 +6,7 @@
 
 .section-card-page-3 {
   display: flex;
-  justify-content: space-between;
   gap: 10px;
-  width: 60%;
 }
 
 .section-card-page-3 .card {
