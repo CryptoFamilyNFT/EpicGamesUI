@@ -13,7 +13,7 @@
 }
 
 .flex-content {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center; /* Cambiato da space-between a center */
   align-items: center;
@@ -21,14 +21,13 @@
 
 .colContainer {
   width: 80%;
-  position: relative;
   display: flex; /* Aggiunto per assicurarsi che gli elementi all'interno siano flessibili */
-  justify-content: center;
-  gap: 10px;
+
+  gap: 20px;
 }
 
 .colContainer section {
-  gap: 15px;
+  gap: 25px;
 }
 
 .card-sezione-colonne {
@@ -36,7 +35,7 @@
 }
 
 .card-sezione-colonne-image {
-  height: 60px;
+  height: 80px;
   width: auto;
   border-radius: 8px;
 }
@@ -45,7 +44,6 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
-  margin: 0;
   padding-left: 4px;
   justify-content: flex-start;
 }
@@ -103,7 +101,6 @@
   display: flex;
   flex-direction: column;
   padding: 0 16px;
-  height: 100%;
   width: 80%;
   flex: 1;
   margin-bottom: 40px;
@@ -126,66 +123,8 @@
   width: 20px;
   position: absolute;
   padding: 0px 0px 42px 27px;
-  display: none;
 }
 
 .card-sezione-colonne:hover svg {
   display: block;
-}
-
-.dotsCol {
-  display: none;
-}
-
-@media screen and (max-width: 800px) {
-  .dotsCol {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .colContainer {
-    overflow-x: auto;
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-  }
-
-  .section,
-  .section1,
-  .section2 {
-    min-width: 100%;
-    border-right: none;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .flex-content {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
-
-  .card-sezione-colonne {
-    width: 100%;
-  }
-
-  .card-title {
-    font-size: 14px;
-  }
-
-  .card-description,
-  .card-description1 {
-    font-size: 10px;
-  }
-
-  .price {
-    font-size: 12px;
-  }
 }
