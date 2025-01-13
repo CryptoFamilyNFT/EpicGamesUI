@@ -146,3 +146,26 @@
 .first-desc-span {
   color: #cccccc;
 }
+
+@media screen and (max-width: 375px) {
+  .sticky-img > img {
+    max-width: 250px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sticky-buttons > input {
+    width: 300px;
+  }
+
+  .base-and-price {
+    padding-right: 230px;
+  }
+
+  .sticky-desc-span {
+  }
+
+  .bottom-button {
+    gap: 20px;
+  }
+}
