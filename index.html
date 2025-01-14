@@ -372,9 +372,9 @@
             for (let i = 0; i < carouselCards.length; i++) {
               if (i === _index) {
                 carouselCards[i].classList.add('active');
-              setTimeout(() => {
-                carouselCards[i].classList.remove('active');
-              }, 8000);
+                setTimeout(() => {
+                  carouselCards[i].classList.remove('active');
+                }, 8000);
               } else {
               carouselCards[i].classList.remove('active');
 >>>>>>> e2c421578503e6cc46b9b38197348e191f631555
@@ -468,7 +468,7 @@
               Sale
             </p>
           </div>
-          <div class="card-carosello2">
+          <div class="card-carosello2" onclick="click">
             <img class="card-carosello2-image"
               src="https://cdn2.unrealengine.com/en-egs-fn-c1s1-og-carousel-thumb-1200x1600-017cf7e7cad2.jpg?resize=1&w=96&h=128&quality=medium" />
             <p>Fortnite OG</p>
