@@ -62,8 +62,3 @@
 #carousel .card-carosello2.active .overlay-carousel {
   opacity: 1;
 }
-
-.card-carosello2:active .overlay-carousel {
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out;
-}

@@ -64,7 +64,6 @@ button[id="my-list"]:hover {
 .container {
   width: 100%;
   height: 500px;
-  position: relative;
   margin: 0;
   padding: 0;
   background-image: url("../../assets/carousel/stalker-bg.avif");
@@ -94,12 +93,10 @@ button[id="my-list"]:hover {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 70%;
+  height: 100%;
   width: 100%;
-  padding-bottom: 20px;
-  justify-content: flex-end;
+  padding: 30% 0px;
 }
-
 
 .container-info {
   height: 100%;
@@ -129,9 +126,6 @@ button[id="my-list"]:hover {
 
 .grid-position-column-1 {
   grid-column: 1;
-}
-.bottom-20 {
-  bottom: 20%;
 }
 
 .grid-position-column-2 {
@@ -194,8 +188,8 @@ button[id="my-list"]:hover {
 }
 
 .logo-game {
-  width: 100%;
-  height: auto;
+  height: 30%;
+  width: auto;
 }
 
 .absolute {
@@ -289,11 +283,4 @@ button:hover {
 
 .border-radius-10 {
   border-radius: 10px;
-}
-
-@media screen and (max-width: 768px) {
-  .container-game {
-    height: 60%;
-    gap: 10px;
-  }
 }

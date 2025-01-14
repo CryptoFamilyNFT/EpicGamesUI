@@ -94,10 +94,9 @@ button[id="my-list"]:hover {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 70%;
+  height: 500px;
   width: 100%;
   padding-bottom: 20px;
-  justify-content: flex-end;
 }
 
 

@@ -94,12 +94,10 @@ button[id="my-list"]:hover {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 70%;
+  height: 100%;
   width: 100%;
-  padding-bottom: 20px;
-  justify-content: flex-end;
+  padding: 30% 0px;
 }
-
 
 .container-info {
   height: 100%;
@@ -129,9 +127,6 @@ button[id="my-list"]:hover {
 
 .grid-position-column-1 {
   grid-column: 1;
-}
-.bottom-20 {
-  bottom: 20%;
 }
 
 .grid-position-column-2 {
@@ -194,8 +189,9 @@ button[id="my-list"]:hover {
 }
 
 .logo-game {
-  width: 100%;
+  width: 50%;
   height: auto;
+  max-height: 100px;
 }
 
 .absolute {
@@ -289,11 +285,4 @@ button:hover {
 
 .border-radius-10 {
   border-radius: 10px;
-}
-
-@media screen and (max-width: 768px) {
-  .container-game {
-    height: 60%;
-    gap: 10px;
-  }
 }
