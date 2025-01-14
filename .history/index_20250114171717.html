@@ -171,12 +171,14 @@
             function updateCardCarousel(_index) {
             for (let i = 0; i < carouselCards.length; i++) {
               if (i === _index) {
-                carouselCards[i].classList.add('active');
-              setTimeout(() => {
-                carouselCards[i].classList.remove('active');
-              }, 8000);
+              carouselCards[i].classList.add('active');
+              carouselCards[i].style.background = "rgba(255, 255, 255, 0.3)";
+              carouselCards[i].style.transition = "width 8s";
+              carouselCards[i].style.width = "100%";
               } else {
               carouselCards[i].classList.remove('active');
+              carouselCards[i].style.background = "none";
+              carouselCards[i].style.width = "0%";
               }
             }
             }

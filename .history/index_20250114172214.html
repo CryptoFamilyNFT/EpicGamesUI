@@ -171,12 +171,10 @@
             function updateCardCarousel(_index) {
             for (let i = 0; i < carouselCards.length; i++) {
               if (i === _index) {
-                carouselCards[i].classList.add('active');
-              setTimeout(() => {
-                carouselCards[i].classList.remove('active');
-              }, 8000);
+              carouselCards[i].classList.add(':active');
               } else {
-              carouselCards[i].classList.remove('active');
+              carouselCards[i].classList.remove(':active');
+
               }
             }
             }

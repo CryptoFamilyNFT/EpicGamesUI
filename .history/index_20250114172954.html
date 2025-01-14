@@ -171,12 +171,13 @@
             function updateCardCarousel(_index) {
             for (let i = 0; i < carouselCards.length; i++) {
               if (i === _index) {
-                carouselCards[i].classList.add('active');
-              setTimeout(() => {
-                carouselCards[i].classList.remove('active');
-              }, 8000);
+              carouselCards[i].classList.add(':active');
+              carouselCards[i].classList.add('before');
+              carouselCards[i].classList.add('after');
               } else {
-              carouselCards[i].classList.remove('active');
+              carouselCards[i].classList.remove(':active');
+              carouselCards[i].classList.remove('::before');
+              carouselCards[i].classList.remove('::after');
               }
             }
             }
