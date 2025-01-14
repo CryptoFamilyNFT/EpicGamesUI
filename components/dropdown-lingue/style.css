@@ -1,6 +1,7 @@
 .section-dropdown {
   width: 200px; /* Imposta la larghezza del contenitore */
   background-color: rgba(28, 28, 28, 0.9);
+  backdrop-filter: blur(10px);
   padding: 15px; /* Padding per distanziare il contenuto */
   border-radius: 20px; /* Angoli arrotondati */
   position: absolute;

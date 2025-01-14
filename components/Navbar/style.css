@@ -7,6 +7,16 @@
   gap: 30px;
 }
 
+.distribute-con {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.distribute-con svg {
+  width: 15px;
+}
+
 #Logo {
   height: 26px;
   padding: 25px;

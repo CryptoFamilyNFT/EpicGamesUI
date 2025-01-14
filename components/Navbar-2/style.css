@@ -7,12 +7,11 @@
   margin: 0 auto;
   padding: 30px;
   position: relative;
-  left: 13%;
   z-index: 1;
 }
 
 .nav-container.scrolled .navbar-2 {
-  transform: translateY(-50px); /* spostamento quando si scolla */
+  transform: translateY(-50px);
 }
 
 .navbar-2 .navbar-elements {
@@ -75,7 +74,7 @@
   transition: 0.2s;
 }
 
-.discover-mobile {
+.discover-2-element {
   display: flex;
   align-items: center;
   gap: 5px;
