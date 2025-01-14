@@ -172,6 +172,9 @@
             for (let i = 0; i < carouselCards.length; i++) {
               if (i === _index) {
                 carouselCards[i].classList.add('active');
+                setTimeout(() => {
+                  carouselCards[i].classList.remove('active');
+                }, 8000);
               } else {
                 carouselCards[i].classList.remove('active');
               }
@@ -188,22 +191,15 @@
             setInterval(() => {
               index = (index + 1) % imagesToScroll.length; // cxiclo immagini
               updateCarouselContent();
-              updateCardCarousel(index); //todo: non so se è corretta la posizione aggiorna la 
+              updateCardCarousel(index); //todo: non so se è corretta la posizione aggiorna la
             }, 8000);
           };
 
-
-          function updateAnimation(element, index) {
-          }
-
           carouselCards.forEach((card, cardIndex) => {
             card.addEventListener('click', () => {
-              carouselCards.forEach((card, cardIndex) => {
-                card.classList.remove('active')
-              })
               index = cardIndex;
+              carouselCards[i].classList.remove('active');
               updateCarouselContent();
-              carouselCards[cardIndex].classList.add('active');
             });
           });
 

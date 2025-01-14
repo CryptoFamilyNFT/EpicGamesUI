@@ -188,22 +188,17 @@
             setInterval(() => {
               index = (index + 1) % imagesToScroll.length; // cxiclo immagini
               updateCarouselContent();
-              updateCardCarousel(index); //todo: non so se è corretta la posizione aggiorna la 
+              updateCardCarousel(index); //todo: non so se è corretta la posizione aggiorna la
             }, 8000);
           };
-
 
           function updateAnimation(element, index) {
           }
 
           carouselCards.forEach((card, cardIndex) => {
             card.addEventListener('click', () => {
-              carouselCards.forEach((card, cardIndex) => {
-                card.classList.remove('active')
-              })
               index = cardIndex;
               updateCarouselContent();
-              carouselCards[cardIndex].classList.add('active');
             });
           });
 

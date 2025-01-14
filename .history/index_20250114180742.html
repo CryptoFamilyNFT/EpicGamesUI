@@ -198,12 +198,9 @@
 
           carouselCards.forEach((card, cardIndex) => {
             card.addEventListener('click', () => {
-              carouselCards.forEach((card, cardIndex) => {
-                card.classList.remove('active')
-              })
               index = cardIndex;
               updateCarouselContent();
-              carouselCards[cardIndex].classList.add('active');
+              carouselCards[i].classList.add('active');
             });
           });
 
