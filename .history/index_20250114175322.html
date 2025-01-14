@@ -185,6 +185,12 @@
             index = _index
           }
 
+          carouselCards.forEach((card, cardIndex) => {
+            card.addEventListener('click', () => {
+              updateIndex(cardIndex)
+            });
+          });
+
           const startCarousel = () => {
             updateCarouselContent();
             updateCardCarousel(index);  //todo: non so se è corretta la posizione
@@ -194,13 +200,6 @@
               updateCardCarousel(index); //todo: non so se è corretta la posizione aggiorna la
             }, 8000);
           };
-
-          carouselCards.forEach((card, cardIndex) => {
-            card.addEventListener('click', () => {
-              index = cardIndex;
-              updateCarouselContent();
-            });
-          });
 
           startCarousel();
         });

@@ -185,6 +185,12 @@
             index = _index
           }
 
+          carouselCards.forEach((card, cardIndex) => {
+            card.addEventListener('click', () => {
+              updateIndex(cardIndex)
+            });
+          });
+
           const startCarousel = () => {
             updateCarouselContent();
             updateCardCarousel(index);  //todo: non so se è corretta la posizione
@@ -194,13 +200,6 @@
               updateCardCarousel(index); //todo: non so se è corretta la posizione aggiorna la
             }, 8000);
           };
-
-          carouselCards.forEach((card, cardIndex) => {
-            card.addEventListener('click', () => {
-              index = cardIndex;
-              updateCarouselContent();
-            });
-          });
 
           startCarousel();
         });
@@ -240,7 +239,7 @@
       </div>
       <div class="carousel-if-2">
         <div id="card-carosello-2" class="vertical-container">
-          <div class="card-carosello2" onclick="click">
+          <div class="card-carosello2">
             <img class="card-carosello2-image" src="assets/card-carosello2/black.avif" />
             <p>
               Black Friday - <br />
@@ -248,7 +247,7 @@
               Sale
             </p>
           </div>
-          <div class="card-carosello2" onclick="click">
+          <div class="card-carosello2">
             <img class="card-carosello2-image"
               src="https://cdn2.unrealengine.com/en-egs-fn-c1s1-og-carousel-thumb-1200x1600-017cf7e7cad2.jpg?resize=1&w=96&h=128&quality=medium" />
             <p>Fortnite OG</p>
