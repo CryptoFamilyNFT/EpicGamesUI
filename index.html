@@ -355,6 +355,7 @@
             };
 
             function updateCardCarousel(_index) {
+<<<<<<< HEAD
               for (let i = 0; i < carouselCards.length; i++) {
                 if (i === _index) {
                   carouselCards[i].classList.add("active");
@@ -367,6 +368,16 @@
                   carouselCards[i].style.background = "none";
                   carouselCards[i].style.width = "0%";
                 }
+=======
+            for (let i = 0; i < carouselCards.length; i++) {
+              if (i === _index) {
+                carouselCards[i].classList.add('active');
+              setTimeout(() => {
+                carouselCards[i].classList.remove('active');
+              }, 8000);
+              } else {
+              carouselCards[i].classList.remove('active');
+>>>>>>> e2c421578503e6cc46b9b38197348e191f631555
               }
             }
 
@@ -432,6 +443,7 @@
             </div>
           </div>
         </div>
+<<<<<<< HEAD
         <div class="carousel-if-2">
           <div id="card-carosello-2" class="vertical-container">
             <div id="default" class="card-carosello2">
@@ -444,6 +456,166 @@
                 Cyber Monday <br />
                 Sale
               </p>
+=======
+      </div>
+      <div class="carousel-if-2">
+        <div id="card-carosello-2" class="vertical-container">
+          <div class="card-carosello2">
+            <img class="card-carosello2-image" src="assets/card-carosello2/black.avif" />
+            <p>
+              Black Friday - <br />
+              Cyber Monday <br />
+              Sale
+            </p>
+          </div>
+          <div class="card-carosello2">
+            <img class="card-carosello2-image"
+              src="https://cdn2.unrealengine.com/en-egs-fn-c1s1-og-carousel-thumb-1200x1600-017cf7e7cad2.jpg?resize=1&w=96&h=128&quality=medium" />
+            <p>Fortnite OG</p>
+          </div>
+          <div class="card-carosello2">
+            <img class="card-carosello2-image"
+              src="https://cdn2.unrealengine.com/egs-path-of-exile-2-carousel-thumb-1200x1600-48a310ab1ccf.jpg?resize=1&w=96&h=128&quality=medium" />
+            <p>Path of Exile 2</p>
+          </div>
+          <div class="card-carosello2">
+            <img class="card-carosello2-image"
+              src="https://cdn2.unrealengine.com/en-roastgoose-carousel-thumbnail-1200x1600-811ccd8b2cb3.jpg?resize=1&w=96&h=128&quality=medium" />
+            <p>Marvel Rivals</p>
+          </div>
+          <div class="card-carosello2">
+            <img class="card-carosello2-image"
+              src="https://cdn2.unrealengine.com/egs-carousel-infinity-nikki-carousel-thumb-1200x1600-66d7b3a33991.jpg?resize=1&w=96&h=128&quality=medium" />
+            <p>Infinity Nikki</p>
+          </div>
+          <div class="card-carosello2">
+            <img class="card-carosello2-image"
+              src="https://cdn2.unrealengine.com/egs-delta-force-carousel-thumb-1200x1600-6ff76ca440d6.jpg?resize=1&w=96&h=128&quality=medium" />
+            <p>Delta Force</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sezione-1-container">
+      <div class="title-section-card-1">
+        <div class="title-section-container">
+          <h1>Principali nuove uscite</h1>
+          <svg aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-sedoc7" width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+              clip-rule="evenodd" fill-rule="evenodd"></path>
+          </svg>
+        </div>
+        <div class="arrow-button">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+        </div>
+      </div>
+      <section class="section-card-1">
+        <div class="card">
+          <div class="card-1-img">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <img src="assets/sezione-card-1/voidwrought.png" alt="voidwrought" class="card-img" />
+          </div>
+          <div class="card-header">
+            <p>Base Game</p>
+            <h2>Voidwrought</h2>
+            <h3>€17.99</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-1-img">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <img src="assets/sezione-card-1/Valorant-img.jpg" alt="Valorant" class="card-img" />
+          </div>
+          <div class="card-header">
+            <p>Base Game</p>
+            <h2>Valorant</h2>
+            <h3>€23.00</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-1-img">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <img src="assets/sezione-card-1/Blade-of-god-x.jpg" alt="Blade-of-god-x" class="card-img" />
+          </div>
+          <div class="card-header">
+            <p>Base Game</p>
+            <h2>Blade of God X</h2>
+            <h3>Gratis</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-1-img">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <img src="assets/sezione-card-1/Horizon-zero-down.jpg" alt="Horizon" class="card-img" />
+          </div>
+          <div class="card-header">
+            <p>Base Game</p>
+            <h2>Horizon Zero Dawn Remastered</h2>
+            <h3>€49.99</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-1-img">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <img src="assets/sezione-card-1/the-coma-2b-catacomb.jpg" alt="the-coma-2b-catacomb" class="card-img" />
+          </div>
+          <div class="card-header">
+            <p>Base Game</p>
+            <h2>The Coma 2B Catacomb:</h2>
+            <h3>€14.99</h3>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="sezione-card-2">
+      <div class="card-container">
+        <div class="card-element">
+          <div class="card-3-img">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <img src="assets/card3/card-3.png" alt="card-3" />
+          </div>
+          <div class="card-3-desc">
+            <span class="card-3-title">Rayman Legends</span>
+            <div class="price-box">
+              <span class="sconto">-80%</span>
+              <span class="inline-price">$29.99</span>
+              <span class="price">$5.99</span>
+>>>>>>> e2c421578503e6cc46b9b38197348e191f631555
             </div>
             <div class="card-carosello2">
               <img
