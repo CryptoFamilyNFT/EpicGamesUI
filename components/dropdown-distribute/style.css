@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.distribute-drop-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: fit-content;
+  color: #ffffff;
+  border: 1px solid none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.distribute-element {
+  padding: 0 20px;
+}
+
+.distribute-element:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid none;
+  border-radius: 10px;
+}

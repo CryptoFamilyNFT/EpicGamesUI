@@ -123,5 +123,6 @@
 
   .navbar-2 {
     position: static;
+    width: 50%;
   }
 }

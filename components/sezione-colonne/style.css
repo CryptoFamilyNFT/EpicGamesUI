@@ -13,7 +13,7 @@
 }
 
 .flex-content {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: center; /* Cambiato da space-between a center */
   align-items: center;

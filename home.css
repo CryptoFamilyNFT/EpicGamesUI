@@ -21,8 +21,12 @@ main {
   flex-grow: 1;
 }
 
-#Logo:hover ~ .logo-dropdown-container {
+#Logo:hover .logo-dropdown-container {
   display: flex;
+}
+
+#Globe:hover .section-dropdown {
+  display: block;
 }
 
 @media screen and (max-width: 768px) {
