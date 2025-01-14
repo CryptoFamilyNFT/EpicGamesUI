@@ -21,6 +21,10 @@ main {
   flex-grow: 1;
 }
 
+#Logo:hover ~ .logo-dropdown-container {
+  display: flex;
+}
+
 @media screen and (max-width: 768px) {
   .carousel-if-1 {
     width: 100%;
