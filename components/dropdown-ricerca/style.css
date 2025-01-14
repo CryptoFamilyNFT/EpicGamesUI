@@ -1,0 +1,47 @@
+.dropdown-ricerca {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 470px;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px;
+  background-color: rgb(24, 24, 28);
+  gap: 10px;
+}
+.dropdown-ricerca-element {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dropdown-ricerca-image {
+  border-radius: 6px;
+  max-height: 50px;
+  width: auto;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.dropdown-ricerca-paragrafo {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.dropdown-ricerca-footer a {
+  color: #ffffffa6;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+.dropdown-ricerca-footer a:hover {
+  text-decoration: none;
+}
+
+.dropdown-ricerca-paragrafo:hover {
+  text-decoration: underline;
+}
