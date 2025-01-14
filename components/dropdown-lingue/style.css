@@ -1,12 +1,12 @@
-body {
-  background: linear-gradient(to right, rgba(255, 126, 95, 0.8), rgba(254, 180, 123, 0.8));
-}
 .section-dropdown {
   width: 200px; /* Imposta la larghezza del contenitore */
-  background-color:#2a2a2a32;
-  border: 1px solid #ccc; /* Bordo sottile per la sezione */
+  background-color: rgba(39, 39, 39, 0.9);
   padding: 15px; /* Padding per distanziare il contenuto */
   border-radius: 20px; /* Angoli arrotondati */
+  position: absolute;
+  right: 160px;
+  top: 60px;
+  display: none;
 }
 
 .dropdown-content a {

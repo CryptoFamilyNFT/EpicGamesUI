@@ -7,6 +7,7 @@
 .sezione-card-2 .card-container {
   display: flex;
   gap: 20px;
+  width: 100%;
 }
 
 .card-3-img > img {
@@ -102,9 +103,5 @@
 
   .card-3-title {
     font-size: 15px;
-  }
-
-  .card-3-img {
-    width: 250px;
   }
 }

@@ -2,6 +2,9 @@
 
 main {
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .game-carosello-section {
@@ -162,6 +165,7 @@ main {
 
   .card-page-4-section {
     overflow: scroll;
+    overflow-y: hidden;
   }
 
   .carosello-genres-feature {

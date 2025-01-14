@@ -1,6 +1,9 @@
 main {
   max-width: 1350px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .carousel-1 {
@@ -26,6 +29,14 @@ main {
   .carousel-if-2 {
     display: none;
   }
+
+  .navbar-2 {
+    justify-content: center;
+  }
+
+  .flex-content {
+    overflow: scroll hidden;
+  }
 }
 
 @media screen and (max-width: 376px) {
@@ -38,6 +49,6 @@ main {
   }
 
   .flex-content {
-    overflow: scroll;
+    overflow: scroll hidden;
   }
 }
