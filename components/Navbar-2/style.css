@@ -3,9 +3,16 @@
   align-items: center;
   background-color: #101015;
   color: #fff;
-  max-width: 1120px;
+  width: 100%;
   margin: 0 auto;
   padding: 30px;
+  position: relative;
+  left: 13%;
+  z-index: 1;
+}
+
+.nav-container.scrolled .navbar-2 {
+  transform: translateY(-50px); /* spostamento quando si scolla */
 }
 
 .navbar-2 .navbar-elements {
@@ -68,6 +75,22 @@
   transition: 0.2s;
 }
 
+.discover-mobile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.discover-mobile svg {
+  width: 18px;
+  display: none;
+}
+
+.discover-mobile:hover {
+  opacity: 50%;
+  transition: 0.2s;
+}
+
 @media (max-width: 768px) {
   .srclogo {
     display: block;
@@ -92,5 +115,13 @@
   .navbar-elements {
     justify-content: center;
     align-items: center;
+  }
+
+  .discover-mobile svg {
+    display: block;
+  }
+
+  .navbar-2 {
+    position: static;
   }
 }
