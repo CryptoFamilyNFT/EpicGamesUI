@@ -128,6 +128,8 @@
 .card-sezione-colonne:hover svg {
   display: block;
 }
+<<<<<<< HEAD
+
 .dotsCol {
   display: none;
 }
@@ -191,3 +193,5 @@
     font-size: 12px;
   }
 }
+=======
+>>>>>>> e1c1122d3127bd5e679c6927af97b23efc3d9bf4

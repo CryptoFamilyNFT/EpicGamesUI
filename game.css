@@ -1,19 +1,20 @@
 @import url("styles.css");
 
 main {
-  margin-left: 170px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .game-carosello-section {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  max-width: 90%;
   height: 1200px;
 }
 
 .carosello-and-desc {
-  width: 60%;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -99,4 +100,130 @@ main {
 
 .carosello-show-more:hover p {
   text-decoration: underline;
+}
+.specifiche-container {
+  max-width: 920px;
+}
+
+.flex-sezione-dlc {
+  max-width: 920px;
+}
+
+.section-card-page-3 {
+  max-width: 920px;
+}
+
+.card-page-4-section {
+  max-width: 920px;
+}
+
+@media screen and (max-width: 768px) {
+  .game-carosello-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .carosello-game-desc {
+    max-height: 500px;
+    overflow: hidden;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-container {
+    margin-bottom: 5px;
+  }
+
+  .navbar-2 {
+    justify-content: center;
+  }
+
+  .sticky-container {
+    position: static;
+    order: -1;
+  }
+
+  .title-card-page-1 {
+    margin: 0 auto;
+  }
+
+  .game-specifications {
+    margin: 0 auto;
+  }
+
+  .game-carosello-section {
+    flex-direction: column;
+    height: max-content;
+  }
+
+  .section-card-page-3 {
+    max-width: 75%;
+    gap: 28px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-page-4-section {
+    overflow: scroll;
+    overflow-y: hidden;
+  }
+
+  .carosello-genres-feature {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .feature-section {
+    border: none;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-card-page-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+  }
+
+  .carosello-genres-feature {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .feature-section {
+    border: none;
+    padding-left: 0;
+  }
+
+  .sticky-container {
+    position: static;
+    order: -1;
+  }
+
+  .sticky-desc {
+    max-width: 100%;
+  }
+
+  .game-carosello-section {
+    flex-direction: column;
+    height: max-content;
+  }
+
+  .title-card-page-1 {
+    margin: 0 auto;
+  }
+
+  .game-specifications {
+    margin: 0 auto;
+  }
+
+  .base-game {
+    padding: 0;
+    padding-left: 10px;
+  }
+
+  .card-page-4-section {
+    overflow: scroll;
+  }
 }

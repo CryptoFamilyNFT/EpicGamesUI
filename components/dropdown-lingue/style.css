@@ -1,0 +1,43 @@
+.section-dropdown {
+  width: 200px; /* Imposta la larghezza del contenitore */
+  background-color: rgba(39, 39, 39, 0.9);
+  padding: 15px; /* Padding per distanziare il contenuto */
+  border-radius: 20px; /* Angoli arrotondati */
+  position: absolute;
+  right: 160px;
+  top: 60px;
+  display: none;
+}
+
+.dropdown-content a {
+  display: block; /* Ogni link andrà a capo */
+  padding: 8px 20px; /* Padding per i link */
+  color: #ffffff; /* Colore del testo */
+  text-decoration: none; /* Rimuove la sottolineatura */
+  margin-bottom: 5px; /* Spazio tra i link */
+  border-radius: 3px; /* Angoli arrotondati per i link */
+  position: relative;
+}
+
+/* Effetto al passaggio del mouse */
+.dropdown-content a:hover {
+  background-color: #ddd; /* Colore di sfondo al passaggio del mouse */
+  color: #000; /* Colore del testo al passaggio del mouse */
+  border-radius: 8px;
+}
+
+/* Aggiungi il segno di spunta per l'elemento selezionato */
+.dropdown-content a.selected::before {
+  content: "✔"; /* Carattere del segno di spunta */
+  position: absolute; /* Posizionamento relativo all'elemento */
+  left: 0px; /* Spazio a sinistra del testo */
+  top: 50%; /* Centra verticalmente */
+  transform: translateY(-50%); /* Aggiusta il posizionamento verticale */
+  color: #007bff; /* Colore del segno di spunta */
+}
+
+/* Effetto al passaggio del mouse */
+.dropdown-content a:hover {
+  background-color: #ddd; /* Colore di sfondo al passaggio del mouse */
+  color: #000; /* Colore del testo al passaggio del mouse */
+}

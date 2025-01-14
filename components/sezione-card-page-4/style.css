@@ -2,7 +2,6 @@
   display: flex;
   gap: 12px;
   align-items: center;
-  width: 70%;
 }
 
 .card-section-4-title {
@@ -19,10 +18,10 @@
   background-color: #202024;
   border: 1px solid #202024;
   border-radius: 20px;
-  max-width: 262px;
+  width: 100%;
 }
 .card-page-4-img img {
-  max-width: 262px;
+  width: 100%;
 }
 
 .card-page-4-desc span {

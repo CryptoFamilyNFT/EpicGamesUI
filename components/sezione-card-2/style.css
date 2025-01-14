@@ -1,11 +1,13 @@
 .sezione-card-2 {
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .sezione-card-2 .card-container {
   display: flex;
   gap: 20px;
+  width: 100%;
 }
 
 .card-3-img > img {
@@ -67,7 +69,7 @@
 
 .card-3-img > svg {
   position: absolute;
-  padding: 0 315px;
+  padding: 0 305px;
   width: 30px;
   color: black;
   display: none;
@@ -85,21 +87,21 @@
 
 @media screen and (max-width: 768px) {
   .sezione-card-2 {
-    width: 100%;
-    overflow-x: auto;
-    margin: 10
-  }
-
-  .sezione-card-2 .card-container {
-    display: flex;
-    padding: 40px;
+    overflow: scroll;
   }
 
   .card-element {
     flex-direction: row;
-    min-width: 100%;
     gap: 10px;
   }
+}
 
+@media screen and (max-width: 375px) {
+  .sezione-card-2 {
+    width: 80%;
+  }
 
+  .card-3-title {
+    font-size: 15px;
+  }
 }

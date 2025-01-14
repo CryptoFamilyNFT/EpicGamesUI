@@ -3,7 +3,7 @@ main {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
 .carousel-1 {
@@ -21,11 +21,34 @@ main {
   flex-grow: 1;
 }
 
-@media screen and (max-width: 800px) {
-  .carousel-1 {
-    .carousel-if-2 {
-      display: none;
-    }
+@media screen and (max-width: 768px) {
+  .carousel-if-1 {
+    width: 100%;
   }
-  
+
+  .carousel-if-2 {
+    display: none;
+  }
+
+  .navbar-2 {
+    justify-content: center;
+  }
+
+  .flex-content {
+    overflow: scroll hidden;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .carousel-if-1 .container-buttons {
+    display: none;
+  }
+
+  .logo-game {
+    width: 100%;
+  }
+
+  .flex-content {
+    overflow: scroll hidden;
+  }
 }
