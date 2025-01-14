@@ -259,129 +259,138 @@
       <!-- Carosello-1 -->
       <div class="carousel-1">
         <script defer>
-          document.addEventListener("DOMContentLoaded", () => {
-            let imagesToScroll = [
-              {
-                image: "assets/carousel/stalker-bg.avif",
-                title: "DISPONIBILE DAL 20 NOVEMBRE",
-                description:
-                  "Esplora la vasta Zona di alienazione di Chornobyl, affronta nemici letali, anomalie pericolose e trova artefatti unici.",
-                logo: "assets/carousel/logo_staked2.png",
-                price: "€79.99",
-              },
-              {
-                image:
-                  "https://cdn2.unrealengine.com/egs-tankhead-carousel-desktop-1920x1080-7bddd1489b5c.jpeg?resize=1&w=1280&h=720&quality=medium",
-                title: "TANKHEAD",
-                description:
-                  "Fai tuo il mondo e crea un nuovo il tuo tank per sfidare i tuoi amici in un immersivo multyplayer... Gioca subito!",
-                logo: "https://cdn2.unrealengine.com/carousel-logo-logo-350x87-def876c4f94f.png",
-                price: "Free",
-              },
-              {
-                image:
-                  "https://cdn2.unrealengine.com/egs-black-myth-wukong-carousel-mobile-1200x1600-d4053962e097.jpg?resize=1&w=640&h=854&quality=medium",
-                title: "Black Myth Wukong",
-                description:
-                  "Vivi l'oscurità di Black Myth Wukong: un MMORPG open-world per ogni dispositivo. Combatti per la tua sopravvivenza!",
-                logo: "https://cdn2.unrealengine.com/egs-black-myth-wukong-carousel-logo-light-350x100-b47bbe672045.png",
-                price: "€59.99",
-              },
-              {
-                image:
-                  "https://cdn2.unrealengine.com/egs-marvel-rivals-s1-carousel-desktop-1920x1080-daeb18730154.jpg?resize=1&w=854&h=480&quality=medium",
-                title: "Marvel Rivals",
-                description:
-                  "Partecipa alle battaglie epiche in Marvel Rivals. Usa personaggi Marvel e conquista la classifica nella lega!",
-                logo: "https://static.wikia.nocookie.net/marvel-rivals/images/9/98/Official_Logo_%28Light%29.png",
-                price: "Free",
-              },
-              {
-                image:
-                  "https://sm.ign.com/ign_it/screenshot/default/infinitynikki-firstpreview-blogroll-1717030993645_8xpu.jpg",
-                title: "Infinity Nikki",
-                description:
-                  "Immergiti nel mondo magico di Infinity Nikki, un'avventura straordinaria in arrivo molto presto.",
-                logo: "https://cdn2.unrealengine.com/egs-infinity-nikki-carousel-logo-white-350x100-cc4aa46a921a.png",
-                price: "€24.99",
-              },
-              {
-                image:
-                  "https://gagadget.com/media/uploads/1deltaforcehawkopsteaser2023_uLAL9jD.jpg",
-                title: "Delta Force",
-                description:
-                  "Vivi l'azione intensa di Delta Force, un'esperienza unica che arriverà presto. La tua squadra Delta è in attesa di avere un leader!",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Delta_Force.png/640px-Delta_Force.png",
-                price: "€54.99",
-              },
-            ];
+                document.addEventListener("DOMContentLoaded", () => {
+                  let imagesToScroll = [
+                    {
+                      image: "assets/carousel/stalker-bg.avif",
+                      title: "DISPONIBILE DAL 20 NOVEMBRE",
+                      description:
+                        "Esplora la vasta Zona di alienazione di Chornobyl, affronta nemici letali, anomalie pericolose e trova artefatti unici.",
+                      logo: "assets/carousel/logo_staked2.png",
+                      price: "€79.99",
+                    },
+                    {
+                      image:
+                        "https://cdn2.unrealengine.com/egs-tankhead-carousel-desktop-1920x1080-7bddd1489b5c.jpeg?resize=1&w=1280&h=720&quality=medium",
+                      title: "TANKHEAD",
+                      description:
+                        "Fai tuo il mondo e crea un nuovo il tuo tank per sfidare i tuoi amici in un immersivo multyplayer... Gioca subito!",
+                      logo: "https://cdn2.unrealengine.com/carousel-logo-logo-350x87-def876c4f94f.png",
+                      price: "Free",
+                    },
+                    {
+                      image:
+                        "https://cdn2.unrealengine.com/egs-black-myth-wukong-carousel-mobile-1200x1600-d4053962e097.jpg?resize=1&w=640&h=854&quality=medium",
+                      title: "Black Myth Wukong",
+                      description:
+                        "Vivi l'oscurità di Black Myth Wukong: un MMORPG open-world per ogni dispositivo. Combatti per la tua sopravvivenza!",
+                      logo: "https://cdn2.unrealengine.com/egs-black-myth-wukong-carousel-logo-light-350x100-b47bbe672045.png",
+                      price: "€59.99",
+                    },
+                    {
+                      image:
+                        "https://cdn2.unrealengine.com/egs-marvel-rivals-s1-carousel-desktop-1920x1080-daeb18730154.jpg?resize=1&w=854&h=480&quality=medium",
+                      title: "Marvel Rivals",
+                      description:
+                        "Partecipa alle battaglie epiche in Marvel Rivals. Usa personaggi Marvel e conquista la classifica nella lega!",
+                      logo: "https://static.wikia.nocookie.net/marvel-rivals/images/9/98/Official_Logo_%28Light%29.png",
+                      price: "Free",
+                    },
+                    {
+                      image:
+                        "https://sm.ign.com/ign_it/screenshot/default/infinitynikki-firstpreview-blogroll-1717030993645_8xpu.jpg",
+                      title: "Infinity Nikki",
+                      description:
+                        "Immergiti nel mondo magico di Infinity Nikki, un'avventura straordinaria in arrivo molto presto.",
+                      logo: "https://cdn2.unrealengine.com/egs-infinity-nikki-carousel-logo-white-350x100-cc4aa46a921a.png",
+                      price: "€24.99",
+                    },
+                    {
+                      image:
+                        "https://gagadget.com/media/uploads/1deltaforcehawkopsteaser2023_uLAL9jD.jpg",
+                      title: "Delta Force",
+                      description:
+                        "Vivi l'azione intensa di Delta Force, un'esperienza unica che arriverà presto. La tua squadra Delta è in attesa di avere un leader!",
+                      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Delta_Force.png/640px-Delta_Force.png",
+                      price: "€54.99",
+                    },
+                  ];
 
-            let index = 0;
+                  let index = 0;
 
-            const imgContainer = document.querySelector(".container");
-            const carouselContent = document.querySelector("#carousel");
-            const carouselCards = document.querySelectorAll(".card-carosello2");
+                  const imgContainer = document.querySelector(".container");
+                  const carouselContent = document.querySelector("#carousel");
+                  const carouselCards = document.querySelectorAll(".card-carosello2");
 
-            if (!imgContainer || !carouselContent) {
-              console.error("Elementi mancanti nel DOM!");
-              return;
-            }
+                  if (!imgContainer || !carouselContent) {
+                    console.error("Elementi mancanti nel DOM!");
+                    return;
+                  }
 
-            const updateCarouselContent = () => {
-              const { title, description, logo, price } = imagesToScroll[index];
-              carouselContent.innerHTML = `
-      <div class="overlay-carousel" style="background-color: rgba(0, 0, 0, 0.5); width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></div>
-      <div class="container-overlay grid-column-1 grid-row-1 grid-span-row-2 align-center just-center">
-        <div class="absolute align-left container-info">
-          <div class="container-game bottom-20">
-            <img class="logo-game" src="${logo}" alt="logo">
-            <p id="preorder" class="mt-spacing-2">${title}</p>
-            <p>${description}</p>
-            <p id="price" class="mt">${price}</p>
-          </div>
-          <div class="container-buttons">
-            <button id="buy">Pre-acquista ora</button>
-            <button id="my-list" class="align-center flex space-bt">
-              <svg style="color: black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-              </svg>
-              <p>Lista dei desideri</p>
-            </button>
-          </div>
-        </div>
-      </div>
-    `;
-              imgContainer.style.backgroundImage = `url(${imagesToScroll[index].image})`;
-            };
+                  const updateCarouselContent = () => {
+                    const { title, description, logo, price } = imagesToScroll[index];
+                    carouselContent.innerHTML = `
+            <div class="overlay-carousel" style="background-color: rgba(0, 0, 0, 0.5); width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></div>
+            <div class="container-overlay grid-column-1 grid-row-1 grid-span-row-2 align-center just-center">
+              <div class="absolute align-left container-info">
+                <div class="container-game bottom-20">
+                  <img class="logo-game" src="${logo}" alt="logo">
+                  <p id="preorder" class="mt-spacing-2">${title}</p>
+                  <p>${description}</p>
+                  <p id="price" class="mt">${price}</p>
+                </div>
+                <div class="container-buttons">
+                  <button id="buy">Pre-acquista ora</button>
+                  <button id="my-list" class="align-center flex space-bt">
+                    <svg style="color: black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                    <p>Lista dei desideri</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          `;
+                    imgContainer.style.backgroundImage = `url(${imagesToScroll[index].image})`;
+                  };
 
-            function updateCardCarousel(_index) {
-              for (let i = 0; i < carouselCards.length; i++) {
-                if (i === _index) {
-                  carouselCards[i].classList.add("active");
-                  carouselCards[i].style.background =
-                    "rgba(255, 255, 255, 0.3)";
-                  carouselCards[i].style.transition = "width 8s";
-                  carouselCards[i].style.width = "100%";
-                } else {
-                  carouselCards[i].classList.remove("active");
-                  carouselCards[i].style.background = "none";
-                  carouselCards[i].style.width = "0%";
+                  function updateCardCarousel(_index) {
+                    for (let i = 0; i < carouselCards.length; i++) {
+                      if (i === _index) {
+                        carouselCards[i].classList.add("active");
+                        carouselCards[i].style.background =
+                          "rgba(255, 255, 255, 0.3)";
+                        carouselCards[i].style.transition = "width 8s";
+                        carouselCards[i].style.width = "100%";
+                      } else {
+                        carouselCards[i].classList.remove("active");
+                        carouselCards[i].style.background = "none";
+                        carouselCards[i].style.width = "0%";
+                      }
+
+                    }
+                  }
+
+                  const startCarousel = () => {
+                    updateCarouselContent();
+                    updateCardCarousel(index); //todo: non so se è corretta la posizione aggiorna la
+                  }, 8000);
+                };
+
+
+                function updateAnimation(element, index) {
                 }
-              }
-            }
 
-            const startCarousel = () => {
-              updateCarouselContent();
-              updateCardCarousel(index); //todo: non so se è corretta la posizione
-              setInterval(() => {
-                index = (index + 1) % imagesToScroll.length; // cxiclo immagini
-                updateCarouselContent();
-                updateCardCarousel(index); //todo: non so se è corretta la posizione aggiorna la
-              }, 8000);
-            };
-
-            startCarousel();
-          });
+                carouselCards.forEach((card, cardIndex) => {
+                  card.addEventListener('click', () => {
+                    carouselCards.forEach((card, cardIndex) => {
+                      card.classList.remove('active')
+                    })
+                    index = cardIndex;
+                    updateCarouselContent();
+                    carouselCards[cardIndex].classList.add('active');
+                  });
+                });
         </script>
 
         <div class="carousel-if-1">
