@@ -12,6 +12,7 @@
   z-index: 2;
   top: 60px;
   left: 10px;
+  border: 1px solid rgb(39, 39, 39);
 }
 
 .play-discover {
@@ -69,4 +70,5 @@
 
 .play-grid-single-element:hover {
   background-color: gray;
+  transition: 0.2s;
 }

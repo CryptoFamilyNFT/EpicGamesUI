@@ -132,6 +132,16 @@ a {
   font: 16px;
 }
 
+.distribute-sec {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.distribute-sec svg {
+  width: 15px;
+}
+
 @media screen and (max-width: 768px) {
   .Nav-Tool-Bar,
   .Nav-Log-Bar {

@@ -34,6 +34,7 @@
           });
         });
       </script>
+
       <script>
         document.addEventListener("DOMContentLoaded", () => {
           const dropdownElement = document.getElementsByClassName(
@@ -41,11 +42,11 @@
           )[0];
           const iconElement = document.getElementById("Logo");
 
-          iconElement.addEventListener("click", () => {
+          iconElement.addEventListener("mouseover", () => {
             dropdownElement.style.display = "flex";
           });
 
-          document.addEventListener("click", (event) => {
+          document.addEventListener("mouseover", (event) => {
             if (
               !iconElement.contains(event.target) &&
               !dropdownElement.contains(event.target)
@@ -55,6 +56,29 @@
           });
         });
       </script>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const dropdownElement = document.getElementsByClassName(
+            "distribute-drop-container"
+          )[0];
+          const iconElement = document.querySelector(".distribute-sec");
+
+          iconElement.addEventListener("mouseover", () => {
+            dropdownElement.style.display = "flex";
+          });
+
+          document.addEventListener("mouseover", (event) => {
+            if (
+              !iconElement.contains(event.target) &&
+              !dropdownElement.contains(event.target)
+            ) {
+              dropdownElement.style.display = "none";
+            }
+          });
+        });
+      </script>
+
       <nav class="nav-container">
         <div class="Nav-Logo">
           <img src="assets/navbar/Logo-Epic.svg" id="Logo" alt="" />
@@ -65,12 +89,23 @@
           <div class="Nav-Tool-Bar">
             <ul class="Nav-List-Bar">
               <li><a href="">Assistenza</a></li>
-              <li>
-                <select>
-                  <optgroup label="Dropdown">
-                    <option>Distribuisci</option>
-                  </optgroup>
-                </select>
+              <li class="distribute-sec">
+                <a href="">Distribuisci</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                  style="color: black"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
               </li>
             </ul>
           </div>
@@ -228,6 +263,21 @@
               <span>Developer Community</span>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="distribute-drop-container">
+        <div class="distribute-element">
+          <p>Distribute on Epic Games Store</p>
+        </div>
+        <div class="distribute-element">
+          <p>Developer Forums</p>
+        </div>
+        <div class="distribute-element">
+          <p>Documentation</p>
+        </div>
+        <div class="distribute-element">
+          <p>Learning</p>
         </div>
       </div>
 

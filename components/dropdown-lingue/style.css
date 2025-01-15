@@ -9,6 +9,7 @@
   top: 60px;
   display: none;
   z-index: 2;
+  border: 1px solid rgb(39, 39, 39);
 }
 
 .dropdown-content a {
@@ -40,6 +41,6 @@
 
 /* Effetto al passaggio del mouse */
 .dropdown-content a:hover {
-  background-color: #ddd; /* Colore di sfondo al passaggio del mouse */
-  color: #000; /* Colore del testo al passaggio del mouse */
+  background-color: gray;
+  transition: 0.2s;
 }
