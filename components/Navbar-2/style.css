@@ -3,10 +3,8 @@
   align-items: center;
   background-color: #101015;
   color: #fff;
-  width: 100%;
   margin: 0 auto;
   padding: 30px;
-  position: relative;
   z-index: 1;
 }
 
@@ -80,14 +78,15 @@
   gap: 5px;
 }
 
-.discover-mobile svg {
-  width: 18px;
-  display: none;
+.discover-cont {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.discover-mobile:hover {
-  opacity: 50%;
-  transition: 0.2s;
+.discover-cont svg {
+  width: 12px;
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -116,7 +115,7 @@
     align-items: center;
   }
 
-  .discover-mobile svg {
+  .discover-cont svg {
     display: block;
   }
 

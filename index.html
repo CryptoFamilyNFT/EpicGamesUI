@@ -81,7 +81,24 @@
 
       <nav class="nav-container">
         <div class="Nav-Logo">
-          <img src="assets/navbar/Logo-Epic.svg" id="Logo" alt="" />
+          <div class="logo-arrow">
+            <img src="assets/navbar/Logo-Epic.svg" id="Logo" alt="" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+              style="color: black"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
           <a href="" id="Store">STORE</a>
         </div>
 
@@ -301,23 +318,40 @@
           <a href="#">繁體中文</a>
         </div>
       </section>
-
-      <div class="fixed-nav">
-        <nav class="navbar-2">
-          <div class="navbar-elements">
-            <div class="srcbar">
-              <img src="assets/srclogo.svg" alt="srclogo" class="srclogo" />
-              <input type="search" id="src" placeholder="Search Store" />
-            </div>
-            <div class="navbar-2-links">
-              <a href="#" class="active">Discover</a>
-              <a href="#">Browse</a>
-              <a href="#">News</a>
-            </div>
-          </div>
-        </nav>
-      </div>
     </header>
+    <div class="fixed-nav">
+      <nav class="navbar-2">
+        <div class="navbar-elements">
+          <div class="srcbar">
+            <img src="assets/srclogo.svg" alt="srclogo" class="srclogo" />
+            <input type="search" id="src" placeholder="Search Store" />
+          </div>
+          <div class="navbar-2-links">
+            <div class="discover-cont">
+              <a href="#" class="active">Scopri</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+                style="color: black"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </div>
+
+            <a href="#">Naviga</a>
+            <a href="#">Notizie</a>
+          </div>
+        </div>
+      </nav>
+    </div>
     <main>
       <!-- Carosello-1 -->
       <div class="carousel-1">

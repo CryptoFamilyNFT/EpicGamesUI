@@ -19,7 +19,6 @@
 
 #Logo {
   height: 26px;
-  padding: 25px;
 }
 
 #Globe {
@@ -41,7 +40,7 @@
   transition: 0.2s;
 }
 
-#Logo:hover {
+.logo-arrow:hover {
   opacity: 50%;
   transition: 0.2s;
 }
@@ -139,6 +138,17 @@ a {
 }
 
 .distribute-sec svg {
+  width: 15px;
+}
+
+.logo-arrow {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 25px;
+}
+
+.logo-arrow svg {
   width: 15px;
 }
 

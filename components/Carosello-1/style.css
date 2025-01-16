@@ -36,7 +36,7 @@ p[id="price"]::before {
 }
 
 button[id="buy"] {
-  width: 200px;
+  width: 150px;
   padding: 10px;
   background-color: white;
   border: 2px solid white;
@@ -46,7 +46,6 @@ button[id="buy"] {
 }
 
 button[id="my-list"] {
-  width: 50%;
   color: white;
   padding: 0px 20px;
   background-color: transparent;
@@ -67,10 +66,10 @@ button[id="my-list"]:hover {
   position: relative;
   margin: 0;
   padding: 0;
-  background-image: url("../../assets/carousel/stalker-bg.avif");
+  background-image: url("assets/carousel/stalker-bg.avif");
   background-size: cover;
   background-position: top;
-  border: 2px solid --bg;
+  border: 2px solid none;
   border-radius: 20px;
   flex-shrink: 2;
 }
@@ -94,15 +93,14 @@ button[id="my-list"]:hover {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 70%;
-  width: 100%;
+  height: 350px;
   padding-bottom: 20px;
   justify-content: flex-end;
 }
 
-
 .container-info {
   height: 100%;
+  width: 200px;
 }
 
 .display-grid {
@@ -194,7 +192,7 @@ button[id="my-list"]:hover {
 }
 
 .logo-game {
-  width: 100%;
+  max-width: 200px;
   height: auto;
 }
 
@@ -293,7 +291,8 @@ button:hover {
 
 @media screen and (max-width: 768px) {
   .container-game {
-    height: 60%;
     gap: 10px;
+    justify-content: center;
+    height: 400px;
   }
 }
