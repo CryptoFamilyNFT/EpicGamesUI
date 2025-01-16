@@ -18,7 +18,7 @@
   background-color: #202024;
   border: 1px solid #202024;
   border-radius: 20px;
-  width: 100%;
+  max-width: 250px;
 }
 .card-page-4-img img {
   width: 100%;

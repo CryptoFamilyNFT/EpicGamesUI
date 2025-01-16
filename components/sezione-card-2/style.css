@@ -1,13 +1,17 @@
 .sezione-card-2 {
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .sezione-card-2 .card-container {
   display: flex;
   gap: 20px;
   width: 100%;
+}
+
+.card-3-desc {
+  margin-top: 10px;
 }
 
 .card-3-img > img {
@@ -69,7 +73,7 @@
 
 .card-3-img > svg {
   position: absolute;
-  padding: 0 305px;
+  right: 5px;
   width: 30px;
   color: black;
   display: none;

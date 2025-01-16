@@ -88,6 +88,22 @@ img[id="card-section-3"] {
   fill: white;
 }
 
+.section-card-3 img {
+  border: 1px solid none;
+  border-radius: 10px;
+}
+
+.btn-general:hover {
+  background-color: #ffffff80;
+  transition: 0.2s;
+}
+
+.section-card-3 img:hover {
+  filter: brightness(200%);
+  filter: contrast(80%);
+  transition: 0.2s;
+}
+
 @media screen and (max-width: 376px) {
   .section-card-3 {
     overflow: scroll;

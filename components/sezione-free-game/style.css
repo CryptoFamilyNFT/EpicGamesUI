@@ -7,6 +7,11 @@
   margin: 0 auto;
 }
 
+.img-rigth-header:hover {
+  opacity: 50%;
+  transition: 0.2s;
+}
+
 .cards-free-games {
   display: flex;
   gap: 40px;
@@ -26,6 +31,12 @@
 .cards-free-games .card-img {
   border-radius: 10px;
   overflow: auto;
+}
+
+.cards-free-games .card-img:hover {
+  filter: brightness(200%);
+  filter: contrast(80%);
+  transition: 0.2s;
 }
 
 .cards-free-games .card-header-free-games {

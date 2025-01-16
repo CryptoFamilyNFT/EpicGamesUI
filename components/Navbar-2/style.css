@@ -3,7 +3,7 @@
   align-items: center;
   background-color: #101015;
   color: #fff;
-  margin: 0 auto;
+  margin-left: 10%;
   padding: 30px;
   z-index: 1;
 }
@@ -122,5 +122,6 @@
   .navbar-2 {
     position: static;
     width: 50%;
+    margin: 0 auto;
   }
 }

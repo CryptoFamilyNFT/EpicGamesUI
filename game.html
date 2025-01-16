@@ -14,9 +14,90 @@
 
   <body>
     <header>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const dropdownElement =
+            document.getElementsByClassName("section-dropdown")[0];
+          const iconElement = document.getElementById("Globe");
+
+          iconElement.addEventListener("click", () => {
+            dropdownElement.style.display = "block";
+          });
+
+          document.addEventListener("click", (event) => {
+            if (
+              !iconElement.contains(event.target) &&
+              !dropdownElement.contains(event.target)
+            ) {
+              dropdownElement.style.display = "none";
+            }
+          });
+        });
+      </script>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const dropdownElement = document.getElementsByClassName(
+            "logo-dropdown-container"
+          )[0];
+          const iconElement = document.getElementById("Logo");
+
+          iconElement.addEventListener("mouseover", () => {
+            dropdownElement.style.display = "flex";
+          });
+
+          document.addEventListener("mouseover", (event) => {
+            if (
+              !iconElement.contains(event.target) &&
+              !dropdownElement.contains(event.target)
+            ) {
+              dropdownElement.style.display = "none";
+            }
+          });
+        });
+      </script>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const dropdownElement = document.getElementsByClassName(
+            "distribute-drop-container"
+          )[0];
+          const iconElement = document.querySelector(".distribute-sec");
+
+          iconElement.addEventListener("mouseover", () => {
+            dropdownElement.style.display = "flex";
+          });
+
+          document.addEventListener("mouseover", (event) => {
+            if (
+              !iconElement.contains(event.target) &&
+              !dropdownElement.contains(event.target)
+            ) {
+              dropdownElement.style.display = "none";
+            }
+          });
+        });
+      </script>
       <nav class="nav-container">
         <div class="Nav-Logo">
-          <img src="assets/navbar/Logo-Epic.svg" id="Logo" alt="" />
+          <div class="logo-arrow">
+            <img src="assets/navbar/Logo-Epic.svg" id="Logo" alt="" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+              style="color: black"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
           <a href="" id="Store">STORE</a>
         </div>
 
@@ -24,12 +105,23 @@
           <div class="Nav-Tool-Bar">
             <ul class="Nav-List-Bar">
               <li><a href="">Assistenza</a></li>
-              <li>
-                <select>
-                  <optgroup label="Dropdown">
-                    <option>Distribuisci</option>
-                  </optgroup>
-                </select>
+              <li class="distribute-sec">
+                <a href="">Distribuisci</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                  style="color: black"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
               </li>
             </ul>
           </div>
@@ -45,19 +137,219 @@
         </div>
       </nav>
 
-      <nav class="navbar-2">
-        <div class="navbar-elements">
-          <div class="srcbar">
-            <img src="assets/srclogo.svg" alt="srclogo" class="srclogo" />
-            <input type="search" id="src" placeholder="Search Store" />
+      <div class="fixed-nav">
+        <nav class="navbar-2">
+          <div class="navbar-elements">
+            <div class="srcbar">
+              <img src="assets/srclogo.svg" alt="srclogo" class="srclogo" />
+              <input type="search" id="src" placeholder="Search Store" />
+            </div>
+            <div class="navbar-2-links">
+              <div class="discover-cont">
+                <a href="#" class="active">Scopri</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                  style="color: black"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </div>
+
+              <a href="#">Naviga</a>
+              <a href="#">Notizie</a>
+            </div>
           </div>
-          <div class="navbar-2-links">
-            <a href="#" class="active">Discover</a>
-            <a href="#">Browse</a>
-            <a href="#">News</a>
+        </nav>
+      </div>
+      <div class="logo-dropdown-container">
+        <div class="play-discover">
+          <div class="play-grid">
+            <div class="dd-grid-title">
+              <span>Play</span>
+            </div>
+            <div class="play-grid-elements">
+              <div class="play-grid-single-element">
+                <img
+                  src="https://cms-assets.unrealengine.com/gdXF6wXaRzq7FLerxFmv"
+                  alt="play-logo-f"
+                />
+                <span>Fortnite</span>
+              </div>
+              <div class="play-grid-single-element">
+                <img
+                  src="https://cms-assets.unrealengine.com/nvjfw8LwTbyiETLiJEeE"
+                  alt="play-logo-rocket"
+                />
+                <span>Rocket League</span>
+              </div>
+              <div class="play-grid-single-element">
+                <img
+                  src="https://cms-assets.unrealengine.com/1MdipiMMQeSDZe15gy3V"
+                  alt="play-logo-fall"
+                />
+                <span>Fall Guys</span>
+              </div>
+            </div>
+          </div>
+          <div class="discover-grid">
+            <div class="dd-grid-title">
+              <span>Discover</span>
+            </div>
+            <div class="play-grid-elements">
+              <div class="play-grid-single-element">
+                <img
+                  src="https://cms-assets.unrealengine.com/aChpm2RFQ3k8uQWWVwgM"
+                  alt="play-logo-f"
+                />
+                <span>Epic Games Store</span>
+              </div>
+              <div class="play-grid-single-element">
+                <img
+                  src="https://cms-assets.unrealengine.com/VYHbV8mMQhCzjH0TIGVO"
+                  alt="play-logo-rocket"
+                />
+                <span>Fab</span>
+              </div>
+              <div class="play-grid-single-element">
+                <img
+                  src="https://cms-assets.unrealengine.com/SueHxUd6SFy59VZItanD"
+                  alt="play-logo-fall"
+                />
+                <span>Sketchfab</span>
+              </div>
+              <div class="play-grid-single-element">
+                <img
+                  src="https://cms-assets.unrealengine.com/GnVa6hUTtSLOfMZrWNxe"
+                  alt="play-logo-fall"
+                />
+                <span>Art Station</span>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
+        <div class="create-grid">
+          <div class="dd-grid-title">
+            <span>Create</span>
+          </div>
+          <div class="play-grid-elements">
+            <div class="play-grid-single-element">
+              <img
+                src="https://cms-assets.unrealengine.com/B8hDILAISampfm5yFOQA"
+                alt="play-logo-f"
+              />
+              <span>Unreal Engine</span>
+            </div>
+            <div class="play-grid-single-element">
+              <img
+                src="https://cms-assets.unrealengine.com/gdXF6wXaRzq7FLerxFmv"
+                alt="play-logo-rocket"
+              />
+              <span>Create in Fortnite</span>
+            </div>
+            <div class="play-grid-single-element">
+              <img
+                src="https://cms-assets.unrealengine.com/E3A9GiKvTxe0vldk0b7T"
+                alt="play-logo-fall"
+              />
+              <span>MetaHuman</span>
+            </div>
+            <div class="play-grid-single-element">
+              <img
+                src="https://cms-assets.unrealengine.com/bx1K2n3URsKKIismuqzF"
+                alt="play-logo-fall"
+              />
+              <span>Twinmotion</span>
+            </div>
+            <div class="play-grid-single-element">
+              <img
+                src="https://cms-assets.unrealengine.com/fBKKKvETTG2PSGTs19a9"
+                alt="play-logo-fall"
+              />
+              <span>RealityScan</span>
+            </div>
+            <div class="play-grid-single-element">
+              <img
+                src="https://cms-assets.unrealengine.com/4hsNBIcXQcCzsN0FYLfD"
+                alt="play-logo-fall"
+              />
+              <span>RealityCapture</span>
+            </div>
+            <div class="play-grid-single-element">
+              <img
+                src="https://cms-assets.unrealengine.com/aChpm2RFQ3k8uQWWVwgM"
+                alt="play-logo-fall"
+              />
+              <span>Epic Online Services</span>
+            </div>
+            <div class="play-grid-single-element">
+              <img
+                src="https://cms-assets.unrealengine.com/aChpm2RFQ3k8uQWWVwgM"
+                alt="play-logo-fall"
+              />
+              <span>Publish on Epic Games Store</span>
+            </div>
+            <div class="play-grid-single-element">
+              <img
+                src="https://cms-assets.unrealengine.com/ijWMz82OStqcWRGDawM9"
+                alt="play-logo-fall"
+              />
+              <span>Kids Web Services</span>
+            </div>
+            <div class="play-grid-single-element">
+              <img
+                src="https://cms-assets.unrealengine.com/aChpm2RFQ3k8uQWWVwgM"
+                alt="play-logo-fall"
+              />
+              <span>Developer Community</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="distribute-drop-container">
+        <div class="distribute-element">
+          <p>Distribute on Epic Games Store</p>
+        </div>
+        <div class="distribute-element">
+          <p>Developer Forums</p>
+        </div>
+        <div class="distribute-element">
+          <p>Documentation</p>
+        </div>
+        <div class="distribute-element">
+          <p>Learning</p>
+        </div>
+      </div>
+
+      <section class="section-dropdown">
+        <div class="dropdown-content">
+          <a href="#">English</a>
+          <a href="#">العربية</a>
+          <a href="#">Deutsch</a>
+          <a href="#">Español</a>
+          <a href="#">Español (America Latina)</a>
+          <a href="#">Français</a>
+          <a href="#" class="selected">Italiano</a>
+          <a href="#">日本語</a>
+          <a href="#">한국어</a>
+          <a href="#">Polski</a>
+          <a href="#">Português (Brasil)</a>
+          <a href="#">Русский</a>
+          <a href="#">ไทย</a>
+          <a href="#">Türkçe</a>
+          <a href="#">简体中文</a>
+          <a href="#">繁體中文</a>
+        </div>
+      </section>
     </header>
     <main>
       <div class="title-card-page-1">

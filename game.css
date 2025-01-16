@@ -5,6 +5,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  max-width: 1100px;
 }
 
 .game-carosello-section {
@@ -102,19 +103,19 @@ main {
   text-decoration: underline;
 }
 .specifiche-container {
-  max-width: 920px;
+  max-width: 780px;
 }
 
 .flex-sezione-dlc {
-  max-width: 920px;
+  max-width: 780px;
 }
 
 .section-card-page-3 {
-  max-width: 920px;
+  max-width: 780px;
 }
 
 .card-page-4-section {
-  max-width: 920px;
+  max-width: 780px;
 }
 
 @media screen and (max-width: 768px) {

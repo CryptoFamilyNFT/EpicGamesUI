@@ -6,7 +6,7 @@
   border-radius: 20px; /* Angoli arrotondati */
   position: absolute;
   right: 160px;
-  top: 60px;
+  top: 50px;
   display: none;
   z-index: 2;
   border: 1px solid rgb(39, 39, 39);
