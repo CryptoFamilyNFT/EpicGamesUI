@@ -8,6 +8,16 @@
   width: 80%;
 }
 
+.three-dots {
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+
+.three-dots svg {
+  width: 25px;
+}
+
 .header-icon {
   fill: black;
 }
@@ -133,7 +143,6 @@
 }
 
 @media screen and (max-width: 800px) {
-
   .dotsCol {
     display: flex;
     justify-content: center;
@@ -142,7 +151,7 @@
     width: 100%;
   }
 
-  .colContainer{
+  .colContainer {
     overflow-x: auto;
     width: auto;
     display: flex;
@@ -160,7 +169,6 @@
 }
 
 @media screen and (max-width: 480px) {
-
   .flex-content {
     width: 80%;
     display: flex;
@@ -171,8 +179,8 @@
 
   .section,
   .section1,
-  .section2{
-    gap: 15px
+  .section2 {
+    gap: 15px;
   }
 
   .card-sezione-colonne {
@@ -183,7 +191,8 @@
     font-size: 14px;
   }
 
-  .card-description, .card-description1 {
+  .card-description,
+  .card-description1 {
     font-size: 10px;
   }
 

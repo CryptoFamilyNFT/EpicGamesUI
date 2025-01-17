@@ -98,14 +98,14 @@
     flex-direction: row;
     gap: 10px;
   }
+
+  .card-3-title {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 375px) {
   .sezione-card-2 {
     width: 80%;
-  }
-
-  .card-3-title {
-    font-size: 15px;
   }
 }
