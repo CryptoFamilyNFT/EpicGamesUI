@@ -200,6 +200,16 @@
         });
       </script>
 
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const linkElement = document.getElementById("the-coma-page");
+
+          linkElement.addEventListener("click", () => {
+            window.location.href = "game.html";
+          });
+        });
+      </script>
+
       <nav class="nav-container">
         <div class="Nav-Logo">
           <div class="logo-arrow">
@@ -938,7 +948,7 @@
               <h3>€49.99</h3>
             </div>
           </div>
-          <div class="card">
+          <div class="card" id="the-coma-page">
             <div class="card-1-img">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
