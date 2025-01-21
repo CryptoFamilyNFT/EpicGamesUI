@@ -1,0 +1,37 @@
+.dropdown-discover-mobile {
+  background-color: #101015;
+  width: 90%;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+.ddm-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  height: 150px;
+}
+
+.ddm-container a {
+  text-decoration: none;
+  color: #cccc;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #666666;
+}
+
+.ddm-container a:hover {
+  color: #ffff;
+}
+
+.ddm-container .active-link-mobile {
+  color: #ffff;
+}
+
+.ddm-container a:last-child {
+  border: none;
+}

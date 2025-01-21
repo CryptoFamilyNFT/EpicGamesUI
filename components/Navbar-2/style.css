@@ -52,8 +52,11 @@
 .navbar-elements > .srcbar {
   background-color: #2a2a2a;
   align-items: center;
+  display: flex;
   border: 5px solid #2a2a2a;
-  border-radius: 15px;
+  border-radius: 20px;
+  height: 30px;
+  padding-left: 10px;
 }
 
 .navbar-elements > .srcbar > [type="search"]::-webkit-input-placeholder {
@@ -94,8 +97,14 @@
     display: block;
   }
 
-  .srcbar > #src {
+  .navbar-elements .srcbar {
+    height: 20px;
+    padding: 0%;
+  }
+
+  .srcbar > #src-bar {
     display: none;
+    height: fit-content;
   }
 
   .navbar-2-links > a:nth-child(2) {

@@ -97,7 +97,7 @@
 }
 
 @media screen and (max-width: 780px) {
-  .section-card-1{
+  .section-card-1 {
     overflow-x: auto;
   }
 

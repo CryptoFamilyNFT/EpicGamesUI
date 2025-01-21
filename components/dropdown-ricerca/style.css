@@ -1,19 +1,24 @@
 .dropdown-ricerca {
-  display: flex;
+  display: none;
   flex-direction: column;
-  height: 100%;
-  max-width: 470px;
+  height: fit-content;
   text-align: left;
   padding: 10px 20px;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px;
   background-color: rgb(24, 24, 28);
   gap: 10px;
+  position: absolute;
+  z-index: 2;
+  top: 145px;
+  left: 190px;
 }
+
 .dropdown-ricerca-element {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: 470px;
 }
 
 .dropdown-ricerca-image {

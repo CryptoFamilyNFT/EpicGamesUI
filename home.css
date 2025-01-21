@@ -33,17 +33,18 @@ main {
   .carousel-if-1 {
     width: 100%;
   }
-
-  .carousel-if-2 {
-    display: none;
-  }
-
   .navbar-2 {
     justify-content: center;
   }
 
   .flex-content {
     overflow: scroll hidden;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .carousel-if-2 {
+    display: none;
   }
 }
 

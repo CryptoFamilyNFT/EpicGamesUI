@@ -20,5 +20,7 @@
 @import url("./components/dropdown-lingue/style.css");
 @import url("./components/dropdown-logo/style.css");
 @import url("./components/dropdown-distribute/style.css");
+@import url("./components/dropdown-ricerca/style.css");
+@import url("./components/dropdown-discover-mobile/style.css");
 
 @import url("home.css");
