@@ -99,13 +99,18 @@
     gap: 10px;
   }
 
+  .card-3-img > img {
+    height: 107px;
+    width: 190px;
+  }
+
   .card-3-title {
     font-size: 15px;
   }
 }
 
-@media screen and (max-width: 375px) {
-  .sezione-card-2 {
-    width: 80%;
+@media screen and (max-width: 376px) {
+  .card-3-img > img {
+    height: 100px;
   }
 }

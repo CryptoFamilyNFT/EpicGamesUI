@@ -83,133 +83,6 @@
       </div>
     </div>
     <header>
-      <script>
-        document.addEventListener("DOMContentLoaded", () => {
-          const dropdownElement =
-            document.getElementsByClassName("section-dropdown")[0];
-          const iconElement = document.getElementById("Globe");
-
-          iconElement.addEventListener("click", () => {
-            dropdownElement.style.display = "block";
-          });
-
-          document.addEventListener("click", (event) => {
-            if (
-              !iconElement.contains(event.target) &&
-              !dropdownElement.contains(event.target)
-            ) {
-              dropdownElement.style.display = "none";
-            }
-          });
-        });
-      </script>
-
-      <script>
-        document.addEventListener("DOMContentLoaded", () => {
-          const dropdownElement = document.getElementsByClassName(
-            "logo-dropdown-container"
-          )[0];
-          const iconElement = document.getElementById("Logo");
-
-          iconElement.addEventListener("mouseover", () => {
-            dropdownElement.style.display = "flex";
-          });
-
-          document.addEventListener("mouseover", (event) => {
-            if (
-              !iconElement.contains(event.target) &&
-              !dropdownElement.contains(event.target)
-            ) {
-              dropdownElement.style.display = "none";
-            }
-          });
-        });
-      </script>
-
-      <script>
-        document.addEventListener("DOMContentLoaded", () => {
-          const dropdownElement = document.getElementsByClassName(
-            "distribute-drop-container"
-          )[0];
-          const iconElement = document.querySelector(".distribute-sec");
-
-          iconElement.addEventListener("mouseover", () => {
-            dropdownElement.style.display = "flex";
-          });
-
-          document.addEventListener("mouseover", (event) => {
-            if (
-              !iconElement.contains(event.target) &&
-              !dropdownElement.contains(event.target)
-            ) {
-              dropdownElement.style.display = "none";
-            }
-          });
-        });
-      </script>
-
-      <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          const input = document.querySelector(".src-bar");
-          if (input) {
-            input.addEventListener("keyup", function () {
-              if (this.value.trim() !== "") {
-                document.querySelector("#src-dropdown").style.display = "flex";
-              } else {
-                document.querySelector("#src-dropdown").style.display = "none";
-              }
-            });
-          } else {
-            console.error(error);
-          }
-        });
-
-        document.addEventListener("click", function (event) {
-          if (document.querySelector("#src-dropdown").contains(event.target)) {
-            return;
-          }
-
-          document.querySelector("#src-dropdown").style.display = "none";
-        });
-
-        input.addEventListener("input", function () {
-          if (this.value.trim() === "") {
-            dropdown.style.display = "none";
-          }
-        });
-      </script>
-
-      <script>
-        document.addEventListener("DOMContentLoaded", () => {
-          const dropdownElement = document.getElementsByClassName(
-            "dropdown-discover-mobile"
-          )[0];
-          const iconElement = document.getElementById("discover-link");
-          iconElement.addEventListener("click", () => {
-            dropdownElement.style.display = "block";
-          });
-
-          document.addEventListener("click", (event) => {
-            if (
-              !iconElement.contains(event.target) &&
-              !dropdownElement.contains(event.target)
-            ) {
-              dropdownElement.style.display = "none";
-            }
-          });
-        });
-      </script>
-
-      <script>
-        document.addEventListener("DOMContentLoaded", () => {
-          const linkElement = document.getElementById("the-coma-page");
-
-          linkElement.addEventListener("click", () => {
-            window.location.href = "game.html";
-          });
-        });
-      </script>
-
       <nav class="nav-container">
         <div class="Nav-Logo">
           <div class="logo-arrow">
@@ -1738,5 +1611,126 @@
         </div>
       </div>
     </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const dropdownElement =
+          document.getElementsByClassName("section-dropdown")[0];
+        const iconElement = document.getElementById("Globe");
+
+        iconElement.addEventListener("click", () => {
+          dropdownElement.style.display = "block";
+        });
+
+        document.addEventListener("click", (event) => {
+          if (
+            !iconElement.contains(event.target) &&
+            !dropdownElement.contains(event.target)
+          ) {
+            dropdownElement.style.display = "none";
+          }
+        });
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const dropdownElement = document.getElementsByClassName(
+          "logo-dropdown-container"
+        )[0];
+        const iconElement = document.getElementById("Logo");
+
+        iconElement.addEventListener("mouseover", () => {
+          dropdownElement.style.display = "flex";
+        });
+
+        document.addEventListener("mouseover", (event) => {
+          if (
+            !iconElement.contains(event.target) &&
+            !dropdownElement.contains(event.target)
+          ) {
+            dropdownElement.style.display = "none";
+          }
+        });
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const dropdownElement = document.getElementsByClassName(
+          "distribute-drop-container"
+        )[0];
+        const iconElement = document.querySelector(".distribute-sec");
+
+        iconElement.addEventListener("mouseover", () => {
+          dropdownElement.style.display = "flex";
+        });
+
+        document.addEventListener("mouseover", (event) => {
+          if (
+            !iconElement.contains(event.target) &&
+            !dropdownElement.contains(event.target)
+          ) {
+            dropdownElement.style.display = "none";
+          }
+        });
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const input = document.querySelector(".src-bar");
+        if (input) {
+          input.addEventListener("keyup", function () {
+            if (this.value.trim() !== "") {
+              document.querySelector("#src-dropdown").style.display = "flex";
+            } else {
+              document.querySelector("#src-dropdown").style.display = "none";
+            }
+          });
+        } else {
+          console.error(error);
+        }
+      });
+
+      document.addEventListener("click", function (event) {
+        if (document.querySelector("#src-dropdown").contains(event.target)) {
+          return;
+        }
+
+        document.querySelector("#src-dropdown").style.display = "none";
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const dropdownElement = document.getElementsByClassName(
+          "dropdown-discover-mobile"
+        )[0];
+        const iconElement = document.getElementById("discover-link");
+        iconElement.addEventListener("click", () => {
+          dropdownElement.style.display = "block";
+        });
+
+        document.addEventListener("click", (event) => {
+          if (
+            !iconElement.contains(event.target) &&
+            !dropdownElement.contains(event.target)
+          ) {
+            dropdownElement.style.display = "none";
+          }
+        });
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const linkElement = document.getElementById("the-coma-page");
+
+        linkElement.addEventListener("click", () => {
+          window.location.href = "game.html";
+        });
+      });
+    </script>
+    <script src="index.js"></script>
   </body>
 </html>
