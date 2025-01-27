@@ -13,23 +13,6 @@
   </head>
 
   <body>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const dropdownElement =
-          document.getElementsByClassName("burger-menu-drop")[0];
-        const iconElement = document.getElementById("Nav-Hamburger");
-        const closeButton = dropdownElement.querySelector("#x-burger-menu");
-
-        iconElement.addEventListener("click", () => {
-          dropdownElement.style.display = "block";
-        });
-
-        closeButton.addEventListener("click", () => {
-          dropdownElement.style.display = "none";
-        });
-      });
-    </script>
-
     <div class="burger-menu-drop">
       <div class="burger-menu-header">
         <a href="" id="store-burger-menu">STORE</a>
@@ -146,7 +129,7 @@
         <div class="play-discover">
           <div class="play-grid">
             <div class="dd-grid-title">
-              <span>Play</span>
+              <span>Gioca</span>
             </div>
             <div class="play-grid-elements">
               <div class="play-grid-single-element">
@@ -174,7 +157,7 @@
           </div>
           <div class="discover-grid">
             <div class="dd-grid-title">
-              <span>Discover</span>
+              <span>Scopri</span>
             </div>
             <div class="play-grid-elements">
               <div class="play-grid-single-element">
@@ -210,7 +193,7 @@
         </div>
         <div class="create-grid">
           <div class="dd-grid-title">
-            <span>Create</span>
+            <span>Crea</span>
           </div>
           <div class="play-grid-elements">
             <div class="play-grid-single-element">
@@ -289,16 +272,16 @@
 
       <div class="distribute-drop-container">
         <div class="distribute-element">
-          <p>Distribute on Epic Games Store</p>
+          <p>Distribuisci sull'Epic Games Store</p>
         </div>
         <div class="distribute-element">
-          <p>Developer Forums</p>
+          <p>Forum degli Sviluppatori</p>
         </div>
         <div class="distribute-element">
-          <p>Documentation</p>
+          <p>Documentazione</p>
         </div>
         <div class="distribute-element">
-          <p>Learning</p>
+          <p>Istruzione</p>
         </div>
       </div>
 
@@ -444,7 +427,7 @@
                 description:
                   "Fai tuo il mondo e crea un nuovo il tuo tank per sfidare i tuoi amici in un immersivo multyplayer... Gioca subito!",
                 logo: "https://cdn2.unrealengine.com/carousel-logo-logo-350x87-def876c4f94f.png",
-                price: "Free",
+                price: "Gratis",
               },
               {
                 image:
@@ -462,7 +445,7 @@
                 description:
                   "Partecipa alle battaglie epiche in Marvel Rivals. Usa personaggi Marvel e conquista la classifica nella lega!",
                 logo: "https://static.wikia.nocookie.net/marvel-rivals/images/9/98/Official_Logo_%28Light%29.png",
-                price: "Free",
+                price: "Gratis",
               },
               {
                 image:
@@ -718,6 +701,7 @@
                 stroke-width="1.5"
                 stroke="currentColor"
                 class="size-6"
+                id="wish-svg"
               >
                 <path
                   stroke-linecap="round"
@@ -732,7 +716,7 @@
               />
             </div>
             <div class="card-header">
-              <p>Base Game</p>
+              <p>Gioco Base</p>
               <h2>Voidwrought</h2>
               <h3>€17.99</h3>
             </div>
@@ -746,6 +730,7 @@
                 stroke-width="1.5"
                 stroke="currentColor"
                 class="size-6"
+                id="wish-svg"
               >
                 <path
                   stroke-linecap="round"
@@ -760,7 +745,7 @@
               />
             </div>
             <div class="card-header">
-              <p>Base Game</p>
+              <p>Gioco Base</p>
               <h2>Valorant</h2>
               <h3>€23.00</h3>
             </div>
@@ -774,6 +759,7 @@
                 stroke-width="1.5"
                 stroke="currentColor"
                 class="size-6"
+                id="wish-svg"
               >
                 <path
                   stroke-linecap="round"
@@ -788,7 +774,7 @@
               />
             </div>
             <div class="card-header">
-              <p>Base Game</p>
+              <p>Gioco Base</p>
               <h2>Blade of God X</h2>
               <h3>Gratis</h3>
             </div>
@@ -802,6 +788,7 @@
                 stroke-width="1.5"
                 stroke="currentColor"
                 class="size-6"
+                id="wish-svg"
               >
                 <path
                   stroke-linecap="round"
@@ -816,7 +803,7 @@
               />
             </div>
             <div class="card-header">
-              <p>Base Game</p>
+              <p>Gioco Base</p>
               <h2>Horizon Zero Dawn Remastered</h2>
               <h3>€49.99</h3>
             </div>
@@ -830,6 +817,7 @@
                 stroke-width="1.5"
                 stroke="currentColor"
                 class="size-6"
+                id="wish-svg"
               >
                 <path
                   stroke-linecap="round"
@@ -844,7 +832,7 @@
               />
             </div>
             <div class="card-header">
-              <p>Base Game</p>
+              <p>Gioco Base</p>
               <h2>The Coma 2B Catacomb:</h2>
               <h3>€14.99</h3>
             </div>
@@ -956,13 +944,13 @@
           </div>
 
           <div class="card-content">
-            <h2>Fortnite</h2>
+            <h2>Need for Speed™ Unbound</h2>
             <p>
-              Make the world yours and bring a new sound with music icon Juice
-              WRLD.
+              Corri contro il tempo, supera in astuzia i poliziotti e partecipa
+              alle qualifiche.
             </p>
             <button>
-              <span>Play Now</span>
+              <span>Gioca Ora</span>
             </button>
           </div>
         </div>
@@ -995,7 +983,8 @@
           <div class="card-content">
             <h2>Avatar: Frontiers of Pandora™</h2>
             <p>
-              Epic aerial battles await in the Spires of the Clouded Forest.
+              Battaglie aeree epiche ti attendono tra le Guglie della Foresta
+              Nebulosa.
             </p>
             <button>
               <span>Play Now</span>
@@ -1008,7 +997,7 @@
           <div class="colContainer">
             <section class="section">
               <header class="header-title">
-                <h2>Top Seller</h2>
+                <h2>Più venduti</h2>
                 <span>
                   <svg
                     aria-hidden="true"
@@ -1106,7 +1095,7 @@
             </section>
             <section class="section1">
               <header class="header-title">
-                <h2>Most Played</h2>
+                <h2>Più giocati</h2>
                 <span>
                   <svg
                     aria-hidden="true"
@@ -1134,7 +1123,7 @@
                 />
                 <div class="card-sezione-colonne-content">
                   <p class="card-title">Rocket League®</p>
-                  <span class="price">Free</span>
+                  <span class="price">Gratis</span>
                 </div>
               </div>
               <div class="card-sezione-colonne">
@@ -1151,7 +1140,7 @@
                   <div class="prezzi-vari">
                     <span class="sconto">-100%</span>
                     <span class="prezzo-precedente">€49.99</span>
-                    <span class="price"> Free</span>
+                    <span class="price">Gratis</span>
                   </div>
                 </div>
               </div>
@@ -1185,7 +1174,7 @@
                   <div class="prezzi-vari">
                     <span class="sconto">-100%</span>
                     <span class="prezzo-precedente">€34.99</span>
-                    <span class="price"> Free</span>
+                    <span class="price">Gratis</span>
                   </div>
                 </div>
               </div>
@@ -1200,13 +1189,13 @@
                 />
                 <div class="card-sezione-colonne-content">
                   <p class="card-title">Marvel Rivals</p>
-                  <span class="price"> Free</span>
+                  <span class="price">Gratis</span>
                 </div>
               </div>
             </section>
             <section class="section2">
               <header class="header-title">
-                <h2>Top Upcoming Wishlisted</h2>
+                <h2>I più attesi</h2>
                 <span>
                   <svg
                     aria-hidden="true"
@@ -1233,8 +1222,8 @@
                   data-animated="animated"
                 />
                 <div class="card-sezione-colonne-content">
-                  <p class="card-title">Assassins Creed</p>
-                  <span class="card-description1"> Available 02/14/25</span>
+                  <p class="card-title">Assassin's Creed: Shadows</p>
+                  <span class="card-description1"> Disponibile 02/14/25</span>
                 </div>
               </div>
               <div class="card-sezione-colonne">
@@ -1248,7 +1237,7 @@
                 />
                 <div class="card-sezione-colonne-content">
                   <p class="card-title">Kingdome Come</p>
-                  <span class="card-description1"> Available 02/04/25</span>
+                  <span class="card-description1"> Disponibile 02/04/25</span>
                   <span class="price"> €59.99</span>
                 </div>
               </div>
@@ -1264,7 +1253,7 @@
                 <div class="card-sezione-colonne-content">
                   <p class="card-title">33 Immortals</p>
                   <div class="prezzi-vari">
-                    <span class="card-description1"> Coming Soon</span>
+                    <span class="card-description1">In arrivo</span>
                   </div>
                 </div>
               </div>
@@ -1279,7 +1268,7 @@
                 />
                 <div class="card-sezione-colonne-content">
                   <p class="card-title">Mini Royale</p>
-                  <span class="card-description1"> Coming Soon</span>
+                  <span class="card-description1">In arrivo</span>
                 </div>
               </div>
               <div class="card-sezione-colonne">
@@ -1293,7 +1282,7 @@
                 />
                 <div class="card-sezione-colonne-content">
                   <p class="card-title">SMITE 2</p>
-                  <span class="card-description1"> Coming Soon</span>
+                  <span class="card-description1">In arrivo</span>
                 </div>
               </div>
             </section>
@@ -1543,7 +1532,12 @@
           <img src="assets/footer/twitterlogo.png" alt="twitterlogo" />
           <img src="assets/footer/ytlogo.png" alt="ytlogo" />
         </div>
-        <img class="upbutton" src="assets/footer/upbutton.png" alt="upbutton" />
+        <img
+          class="upbutton"
+          id="upbutton"
+          src="assets/footer/upbutton.png"
+          alt="upbutton"
+        />
       </div>
       <div class="footer-links">
         <div class="links1">
@@ -1677,6 +1671,23 @@
     </script>
 
     <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const dropdownElement =
+          document.getElementsByClassName("burger-menu-drop")[0];
+        const iconElement = document.getElementById("Nav-Hamburger");
+        const closeButton = dropdownElement.querySelector("#x-burger-menu");
+
+        iconElement.addEventListener("click", () => {
+          dropdownElement.style.display = "block";
+        });
+
+        closeButton.addEventListener("click", () => {
+          dropdownElement.style.display = "none";
+        });
+      });
+    </script>
+
+    <script>
       document.addEventListener("DOMContentLoaded", function () {
         const input = document.querySelector(".src-bar");
         if (input) {
@@ -1728,6 +1739,26 @@
 
         linkElement.addEventListener("click", () => {
           window.location.href = "game.html";
+        });
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const linkElement = document.getElementById("the-coma-page");
+
+        linkElement.addEventListener("click", () => {
+          window.location.href = "game.html";
+        });
+      });
+    </script>
+    <script>
+      const scrollToTopBtn = document.getElementById("upbutton");
+
+      scrollToTopBtn.addEventListener("click", function () {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth", // L'animazione di scroll è fluida
         });
       });
     </script>

@@ -21,6 +21,13 @@
   width: 470px;
 }
 
+.dropdown-ricerca-element a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: default;
+}
+
 .dropdown-ricerca-image {
   border-radius: 6px;
   max-height: 50px;
@@ -34,6 +41,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   text-decoration: none;
+  cursor: default;
 }
 
 .dropdown-ricerca-footer a {

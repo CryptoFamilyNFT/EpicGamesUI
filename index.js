@@ -3,6 +3,7 @@ const games = [
     nome: "The Coma 2B: Catacomb",
     immagine:
       "https://cdn1.epicgames.com/spt-assets/1a47c7bc94f0452885db1f9695ebb7e4/the-coma-2b-catacomb-1t2y1.jpg?resize=1&w=360&h=480&quality=medium",
+    link: "game.html",
   },
   {
     nome: "Agatha Christie - Death on The Nile",
@@ -52,37 +53,50 @@ const games = [
 ];
 
 const search = document.getElementById("src-bar");
-const resultsContainer = document.getElementsByClassName(
-  "dropdown-ricerca-element"
-);
+const resultsContainer = document.getElementsByClassName("dropdown-ricerca")[0];
 
 search.addEventListener("input", function () {
   const query = this.value.toLowerCase(); // Ottieni il valore della ricerca, convertito in minuscolo
   const suggestions = games.filter((game) =>
     game.nome.toLowerCase().includes(query)
   ); // Filtro dei giochi
-  console.log(suggestions);
 
   // Pulisce il contenuto precedente dei risultati
   resultsContainer.innerHTML = "";
 
-  // Aggiungi i risultati filtrati al div
   if (suggestions.length > 0) {
-    suggestions.forEach((game) => {
-      const gameElement = document.createElement("div");
-      gameElement.classList.add("game-item");
-
-      // Creazione dell'HTML per ogni gioco
-      gameElement.innerHTML = `
-        <img src="${game.immagine}" alt="${game.nome}" />
-        <p>${game.nome}</p>
+    const firstFourGames = suggestions.slice(0, 4);
+    firstFourGames.forEach((game) => {
+      // Se il nome del gioco è "The Coma 2B: Catacomb", creiamo un link che punta alla pagina game.html
+      if (game.nome === "The Coma 2B: Catacomb") {
+        resultsContainer.innerHTML += `
+          <div class="dropdown-ricerca-element">
+            <a href="${game.link}">
+              <img src="${game.immagine}" alt="${game.nome}" class="dropdown-ricerca-image" />
+              <p class="dropdown-ricerca-paragrafo">${game.nome}</p>
+            </a>
+          </div>
+        `;
+      } else {
+        // Aggiungi un div con immagine e nome del gioco
+        resultsContainer.innerHTML += `
+        <div class="dropdown-ricerca-element">
+          <img class="dropdown-ricerca-image" src="${game.immagine}" alt="${game.nome}" />
+          <p class="dropdown-ricerca-paragrafo">${game.nome}</p>
+        </div>
       `;
-
-      // Aggiungi il gioco al contenitore dei risultati
-      resultsContainer.appendChild(gameElement);
+      }
     });
+
+    if (suggestions.length > 4) {
+      resultsContainer.innerHTML += `
+        <div class="dropdown-ricerca-footer">
+          <a href="#">Scopri di più</a>
+        </div>
+      `;
+    }
   } else {
-    // Mostra un messaggio se non ci sono risultati
-    resultsContainer.innerHTML = "<p>Nessun gioco trovato</p>";
+    // Se nessun gioco è trovato, mostra un messaggio
+    resultsContainer.innerHTML = "<p>Nessun risultato</p>";
   }
 });

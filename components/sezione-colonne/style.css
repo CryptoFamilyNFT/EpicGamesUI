@@ -42,6 +42,9 @@
 
 .card-sezione-colonne {
   width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .card-sezione-colonne-image {
@@ -80,7 +83,6 @@
   color: #ffffffa6;
   border-radius: 3px;
   width: fit-content;
-  padding: 0px 5px;
 }
 
 .price {
@@ -168,6 +170,13 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .flex-content {
+    padding-left: 60px;
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .flex-content {
     width: 80%;
@@ -175,6 +184,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    padding: 0;
   }
 
   .section,
